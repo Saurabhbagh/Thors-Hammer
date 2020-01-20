@@ -28,7 +28,7 @@ public class CallHammer : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKey("space"))
+        if (Input.GetKey("t"))
         {
             audio.enabled = true;
             if (!audio.isPlaying)
@@ -77,8 +77,14 @@ public class CallHammer : MonoBehaviour
     void ComeToMe(string HandType , GameObject Hand)
     {
 
+
+        // Calculating speed 
+        float distanace = Vector3.Distance(hammer.transform.position, Hand.transform.position);
+        speed = distanace / 0.2f;
+
+
         // Debug.Log(" Going to : " + HandType + "");
-                float step = speed * Time.deltaTime; // calculate distance to move
+        float step = speed * Time.deltaTime; // calculate distance to move
         hammer.transform.position = Vector3.MoveTowards(hammer.transform.position, Hand.transform.position, step);
                 
     }
