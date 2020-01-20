@@ -1,0 +1,5426 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PixelRect:
+    serializedVersion: 2
+    x: 1920
+    y: 43
+    width: 1920
+    height: 1117
+  m_ShowMode: 4
+  m_Title: 
+  m_RootView: {fileID: 2}
+  m_MinSize: {x: 950, y: 448}
+  m_MaxSize: {x: 10000, y: 10000}
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 3}
+  - {fileID: 5}
+  - {fileID: 4}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1920
+    height: 1117
+  m_MinSize: {x: 950, y: 448}
+  m_MaxSize: {x: 10000, y: 10000}
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1920
+    height: 30
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+  m_LastLoadedLayoutName: 
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 1097
+    width: 1920
+    height: 20
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 6}
+  - {fileID: 7}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 1920
+    height: 1067
+  m_MinSize: {x: 1117, y: 398}
+  m_MaxSize: {x: 20060, y: 14048}
+  vertical: 0
+  controlID: 100
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1019
+    height: 1067
+  m_MinSize: {x: 402, y: 124}
+  m_MaxSize: {x: 2050, y: 2072}
+  m_ActualView: {fileID: 13}
+  m_Panes:
+  - {fileID: 16}
+  - {fileID: 15}
+  - {fileID: 14}
+  - {fileID: 13}
+  m_Selected: 3
+  m_LastSelected: 2
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 8}
+  - {fileID: 12}
+  m_Position:
+    serializedVersion: 2
+    x: 1019
+    y: 0
+    width: 901
+    height: 1067
+  m_MinSize: {x: 715, y: 398}
+  m_MaxSize: {x: 18010, y: 14048}
+  vertical: 1
+  controlID: 101
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 9}
+  - {fileID: 10}
+  - {fileID: 11}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 901
+    height: 685
+  m_MinSize: {x: 715, y: 274}
+  m_MaxSize: {x: 18010, y: 10024}
+  vertical: 0
+  controlID: 102
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 206
+    height: 685
+  m_MinSize: {x: 204, y: 224}
+  m_MaxSize: {x: 4004, y: 4024}
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 17}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 206
+    y: 0
+    width: 236
+    height: 685
+  m_MinSize: {x: 234, y: 274}
+  m_MaxSize: {x: 10004, y: 10024}
+  m_ActualView: {fileID: 18}
+  m_Panes:
+  - {fileID: 18}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 442
+    y: 0
+    width: 459
+    height: 685
+  m_MinSize: {x: 277, y: 74}
+  m_MaxSize: {x: 4002, y: 4024}
+  m_ActualView: {fileID: 19}
+  m_Panes:
+  - {fileID: 19}
+  - {fileID: 20}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 685
+    width: 901
+    height: 382
+  m_MinSize: {x: 102, y: 124}
+  m_MaxSize: {x: 4002, y: 4024}
+  m_ActualView: {fileID: 21}
+  m_Panes:
+  - {fileID: 21}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 400, y: 100}
+  m_MaxSize: {x: 2048, y: 2048}
+  m_TitleContent:
+    m_Text: Asset Store
+    m_Image: {fileID: 357073275683767465, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1920
+    y: 73
+    width: 1017
+    height: 1047
+  m_PersistentViewDataDictionary: {fileID: 0}
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -526472451, guid: 7668179ede524d6396c8b7d84461ea29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Timeline
+    m_Image: {fileID: 2263789160270303489, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1920
+    y: 73
+    width: 1017
+    height: 1047
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_Preferences:
+    frameSnap: 1
+    edgeSnaps: 1
+    muteAudioScrub: 1
+    playRangeLoopMode: 1
+    editType: 0
+    timeReferenceMode: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_SequenceHierarchy: {fileID: 0}
+  m_HierarchySplitterPerc: 0.2
+  m_SequencePath:
+    m_SelectionRoot: 0
+    m_SubElements: []
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: -2087823869225018852, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1920
+    y: 73
+    width: 1017
+    height: 1047
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_MaximizeOnPlay: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_TargetDisplay: 0
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -508.5
+    m_HBaseRangeMax: 508.5
+    m_VBaseRangeMin: -515
+    m_VBaseRangeMax: 515
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 1
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 17
+      width: 1017
+      height: 1030
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 508.5, y: 515}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -508.5
+      y: -515
+      width: 1017
+      height: 1030
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_TargetTexture: {fileID: 0}
+  m_CurrentColorSpace: 0
+  m_LastWindowPixelSize: {x: 1017, y: 1047}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000000000100000100
+  m_XRRenderMode: 0
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Scene
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1920
+    y: 73
+    width: 1017
+    height: 1047
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_WindowGUID: 927898c860da18c4cbfd1cc1267523dc
+  m_SceneLighting: 0
+  m_2DMode: 0
+  m_isRotationLocked: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: 0, y: 0, z: 0}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0}
+  m_RenderMode: 0
+  m_CameraMode:
+    drawMode: 0
+    name: Shaded
+    section: Shading Mode
+  m_ValidateTrueMetals: 0
+  m_SceneViewState:
+    showFog: 1
+    showMaterialUpdate: 0
+    showSkybox: 0
+    showFlares: 1
+    showImageEffects: 1
+    showParticleSystems: 1
+  grid:
+    xGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
+    yGrid:
+      m_Target: 1
+      speed: 2
+      m_Value: 1
+    zGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
+  m_Rotation:
+    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    speed: 2
+    m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_Size:
+    m_Target: 10
+    speed: 2
+    m_Value: 10
+  m_Ortho:
+    m_Target: 0
+    speed: 2
+    m_Value: 0
+  m_ShowGlobalGrid: 1
+  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
+  m_LastSceneViewOrtho: 0
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_LastLockedObject: {fileID: 0}
+  m_ViewIsLockedToObject: 0
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: -590624980919486359, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 2939
+    y: 73
+    width: 202
+    height: 665
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: defbffff
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 9}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: 8cc91d1d624aba54395bab24a180b71c
+--- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -7501376956915960154, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 3145
+    y: 73
+    width: 232
+    height: 665
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_VersionControlStates: []
+    m_SoftLockControlStates: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SearchArea: 1
+    m_Folders: []
+  m_ViewMode: 0
+  m_StartGridSize: 16
+  m_LastFolders: []
+  m_LastFoldersGridSize: 16
+  m_LastProjectPath: C:\Thor Hammer\Thors-Hammer\ThorsHammer
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 26340000
+    m_LastClickedID: 13350
+    m_ExpandedIDs: 
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: ffffffff76090000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 10}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: 
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 10}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 256}
+    m_GridSize: 16
+  m_DirectoriesAreaWidth: 236
+--- !u!114 &19
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -6905738622615590433, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 3381
+    y: 73
+    width: 457
+    height: 665
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewResizer:
+    m_CachedPref: -329
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_PreviewWindow: {fileID: 0}
+--- !u!114 &20
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Test Runner
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1401
+    y: 100
+    width: 511
+    height: 872
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_TestTypeToolbarIndex: 0
+  m_PlayModeTestListGUI:
+    m_Window: {fileID: 20}
+    newResultList:
+    - id: '[ThorsHammer][suite]'
+      name: ThorsHammer
+      fullName: ThorsHammer
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    m_ResultText: 
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: faabf2c17452eb18dcf2b24655be7959ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+  m_EditModeTestListGUI:
+    m_Window: {fileID: 20}
+    newResultList:
+    - id: '[QuickShape][suite]'
+      name: QuickShape
+      fullName: QuickShape
+      resultStatus: 1
+      duration: 11.804903
+      messages: One or more child tests were ignored
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[D:/Unity Projects/QuickShape/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll][suite]'
+      name: Assembly-CSharp-Editor.dll
+      fullName: D:/Unity Projects/QuickShape/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+      resultStatus: 1
+      duration: 11.88714
+      messages: One or more child tests were ignored
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[QuickShape][suite]'
+      name: QuickShape
+      fullName: QuickShape
+      resultStatus: 1
+      duration: 11.804903
+      messages: One or more child tests were ignored
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.BuildTrimCurveMaskServiceTest][suite]'
+      name: BuildTrimCurveMaskServiceTest
+      fullName: QuickShape.BuildTrimCurveMaskServiceTest
+      resultStatus: 1
+      duration: 0.7172436
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.BuildTrimCurveMaskServiceTest.FatBorderIsCorrectForTextureWithClosedDiagonalFillingSegment]'
+      name: FatBorderIsCorrectForTextureWithClosedDiagonalFillingSegment
+      fullName: QuickShape.BuildTrimCurveMaskServiceTest.FatBorderIsCorrectForTextureWithClosedDiagonalFillingSegment
+      resultStatus: 1
+      duration: 0.0883341
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.BuildTrimCurveMaskServiceTest.ReturnedTrimCurveMaskIsNotReleasedEvenIfReleasedBeforeBySomeoneElse]'
+      name: ReturnedTrimCurveMaskIsNotReleasedEvenIfReleasedBeforeBySomeoneElse
+      fullName: QuickShape.BuildTrimCurveMaskServiceTest.ReturnedTrimCurveMaskIsNotReleasedEvenIfReleasedBeforeBySomeoneElse
+      resultStatus: 1
+      duration: 0.0152357
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.BuildTrimCurveMaskServiceTest.TextureIsCreatedWithCorrectSize]'
+      name: TextureIsCreatedWithCorrectSize
+      fullName: QuickShape.BuildTrimCurveMaskServiceTest.TextureIsCreatedWithCorrectSize
+      resultStatus: 1
+      duration: 0.21965
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.BuildTrimCurveMaskServiceTest.TextureWithClosedHalfFillingSegmentIsBlackAndWhite]'
+      name: TextureWithClosedHalfFillingSegmentIsBlackAndWhite
+      fullName: QuickShape.BuildTrimCurveMaskServiceTest.TextureWithClosedHalfFillingSegmentIsBlackAndWhite
+      resultStatus: 1
+      duration: 0.025893
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.BuildTrimCurveMaskServiceTest.TextureWithClosedTextureFillingSegmentIsWhite]'
+      name: TextureWithClosedTextureFillingSegmentIsWhite
+      fullName: QuickShape.BuildTrimCurveMaskServiceTest.TextureWithClosedTextureFillingSegmentIsWhite
+      resultStatus: 1
+      duration: 0.0821993
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.BuildTrimCurveMaskServiceTest.TextureWithNoPointsIsPureWhite]'
+      name: TextureWithNoPointsIsPureWhite
+      fullName: QuickShape.BuildTrimCurveMaskServiceTest.TextureWithNoPointsIsPureWhite
+      resultStatus: 1
+      duration: 0.016169
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ClipperHelperTest][suite]'
+      name: ClipperHelperTest
+      fullName: QuickShape.ClipperHelperTest
+      resultStatus: 1
+      duration: 0.0435152
+      messages: One or more child tests were ignored
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ClipperHelperTest.DummyTest]'
+      name: DummyTest
+      fullName: QuickShape.ClipperHelperTest.DummyTest
+      resultStatus: 4
+      duration: 0.0003934
+      messages: 'TODO: Test our Clipper Helper!'
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 1
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ClipperHelperTest.WhatDoesClipperDoWithAnEight]'
+      name: WhatDoesClipperDoWithAnEight
+      fullName: QuickShape.ClipperHelperTest.WhatDoesClipperDoWithAnEight
+      resultStatus: 1
+      duration: 0.0172482
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ClipperPolygonClippingServiceTest][suite]'
+      name: ClipperPolygonClippingServiceTest
+      fullName: QuickShape.ClipperPolygonClippingServiceTest
+      resultStatus: 1
+      duration: 0.559136
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ClipperPolygonClippingServiceTest.Difference_FullAndHalfPolygon_OtherHalfIsKept]'
+      name: Difference_FullAndHalfPolygon_OtherHalfIsKept
+      fullName: QuickShape.ClipperPolygonClippingServiceTest.Difference_FullAndHalfPolygon_OtherHalfIsKept
+      resultStatus: 1
+      duration: 0.0152135
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ClipperPolygonClippingServiceTest.Difference_PolygonWithBiggerPolygon_Empty]'
+      name: Difference_PolygonWithBiggerPolygon_Empty
+      fullName: QuickShape.ClipperPolygonClippingServiceTest.Difference_PolygonWithBiggerPolygon_Empty
+      resultStatus: 1
+      duration: 0.016294
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ClipperPolygonClippingServiceTest.Difference_TwoIntersectingHalfPolygons_QuarterIsKept]'
+      name: Difference_TwoIntersectingHalfPolygons_QuarterIsKept
+      fullName: QuickShape.ClipperPolygonClippingServiceTest.Difference_TwoIntersectingHalfPolygons_QuarterIsKept
+      resultStatus: 1
+      duration: 0.0146556
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ClipperPolygonClippingServiceTest.Difference_TwoSamePolygons_Empty]'
+      name: Difference_TwoSamePolygons_Empty
+      fullName: QuickShape.ClipperPolygonClippingServiceTest.Difference_TwoSamePolygons_Empty
+      resultStatus: 1
+      duration: 0.0150222
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ClipperPolygonClippingServiceTest.Intersect_FullAndHalfPolygon_HalfIsKept]'
+      name: Intersect_FullAndHalfPolygon_HalfIsKept
+      fullName: QuickShape.ClipperPolygonClippingServiceTest.Intersect_FullAndHalfPolygon_HalfIsKept
+      resultStatus: 1
+      duration: 0.0150141
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ClipperPolygonClippingServiceTest.Intersect_TwoDistinctHalfPolygons_Empty]'
+      name: Intersect_TwoDistinctHalfPolygons_Empty
+      fullName: QuickShape.ClipperPolygonClippingServiceTest.Intersect_TwoDistinctHalfPolygons_Empty
+      resultStatus: 1
+      duration: 0.0148389
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ClipperPolygonClippingServiceTest.Intersect_TwoIntersectingHalfPolygons_QuarterIsKept]'
+      name: Intersect_TwoIntersectingHalfPolygons_QuarterIsKept
+      fullName: QuickShape.ClipperPolygonClippingServiceTest.Intersect_TwoIntersectingHalfPolygons_QuarterIsKept
+      resultStatus: 1
+      duration: 0.0146792
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ClipperPolygonClippingServiceTest.SeparateIslands_FullAndHalfPolygon_TwoHalfIslands]'
+      name: SeparateIslands_FullAndHalfPolygon_TwoHalfIslands
+      fullName: QuickShape.ClipperPolygonClippingServiceTest.SeparateIslands_FullAndHalfPolygon_TwoHalfIslands
+      resultStatus: 1
+      duration: 0.016457
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ClipperPolygonClippingServiceTest.SeparateIslands_LeftAndUpperHalfPolygons_TwoQuarterIslands]'
+      name: SeparateIslands_LeftAndUpperHalfPolygons_TwoQuarterIslands
+      fullName: QuickShape.ClipperPolygonClippingServiceTest.SeparateIslands_LeftAndUpperHalfPolygons_TwoQuarterIslands
+      resultStatus: 1
+      duration: 0.0146287
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ClipperPolygonClippingServiceTest.SeparateIslands_NullAndCenterQuarter_TwoIslands]'
+      name: SeparateIslands_NullAndCenterQuarter_TwoIslands
+      fullName: QuickShape.ClipperPolygonClippingServiceTest.SeparateIslands_NullAndCenterQuarter_TwoIslands
+      resultStatus: 1
+      duration: 0.0157162
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ClipperPolygonClippingServiceTest.SeparateIslands_NullAndHalfPolygon_OneIslandHalf]'
+      name: SeparateIslands_NullAndHalfPolygon_OneIslandHalf
+      fullName: QuickShape.ClipperPolygonClippingServiceTest.SeparateIslands_NullAndHalfPolygon_OneIslandHalf
+      resultStatus: 1
+      duration: 0.0148659
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ClipperPolygonClippingServiceTest.SeparateIslands_NullAndMagicEightPlusBar_NineIslands]'
+      name: SeparateIslands_NullAndMagicEightPlusBar_NineIslands
+      fullName: QuickShape.ClipperPolygonClippingServiceTest.SeparateIslands_NullAndMagicEightPlusBar_NineIslands
+      resultStatus: 1
+      duration: 0.0168052
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ClipperPolygonClippingServiceTest.SeparateIslands_NullAndMirroredMagicEightPlusBar_NineIslands]'
+      name: SeparateIslands_NullAndMirroredMagicEightPlusBar_NineIslands
+      fullName: QuickShape.ClipperPolygonClippingServiceTest.SeparateIslands_NullAndMirroredMagicEightPlusBar_NineIslands
+      resultStatus: 1
+      duration: 0.0155523
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ClipperPolygonClippingServiceTest.SeparateIslands_NullAndSmallerMagicEight_ThreeIslands]'
+      name: SeparateIslands_NullAndSmallerMagicEight_ThreeIslands
+      fullName: QuickShape.ClipperPolygonClippingServiceTest.SeparateIslands_NullAndSmallerMagicEight_ThreeIslands
+      resultStatus: 1
+      duration: 0.0168104
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ClipperPolygonClippingServiceTest.SeparateIslands_NullAndTwoHalfPolygons_FourQuarterIslands]'
+      name: SeparateIslands_NullAndTwoHalfPolygons_FourQuarterIslands
+      fullName: QuickShape.ClipperPolygonClippingServiceTest.SeparateIslands_NullAndTwoHalfPolygons_FourQuarterIslands
+      resultStatus: 1
+      duration: 0.0150476
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ClipperPolygonClippingServiceTest.SeparateIslands_QuadAndOverlappingHalfPolygons_FourIslands]'
+      name: SeparateIslands_QuadAndOverlappingHalfPolygons_FourIslands
+      fullName: QuickShape.ClipperPolygonClippingServiceTest.SeparateIslands_QuadAndOverlappingHalfPolygons_FourIslands
+      resultStatus: 1
+      duration: 0.0159202
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ClipperPolygonClippingServiceTest.SeparateIslands_TheSawtooth_TwentyThreeIslands]'
+      name: SeparateIslands_TheSawtooth_TwentyThreeIslands
+      fullName: QuickShape.ClipperPolygonClippingServiceTest.SeparateIslands_TheSawtooth_TwentyThreeIslands
+      resultStatus: 1
+      duration: 0.01584
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ClipperPolygonClippingServiceTest.SeparateIslands_TwoPartsAndCenterQuarter_FourIslands]'
+      name: SeparateIslands_TwoPartsAndCenterQuarter_FourIslands
+      fullName: QuickShape.ClipperPolygonClippingServiceTest.SeparateIslands_TwoPartsAndCenterQuarter_FourIslands
+      resultStatus: 1
+      duration: 0.0146908
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ClipperPolygonClippingServiceTest.SeparateIslands_TwoPartsWithHoleAndCenterQuarter_FourIslands]'
+      name: SeparateIslands_TwoPartsWithHoleAndCenterQuarter_FourIslands
+      fullName: QuickShape.ClipperPolygonClippingServiceTest.SeparateIslands_TwoPartsWithHoleAndCenterQuarter_FourIslands
+      resultStatus: 1
+      duration: 0.016188
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ClipperPolygonClippingServiceTest.SeparateIslands_TwoPartsWithTwoHolesAndCenterQuarter_FourIslands]'
+      name: SeparateIslands_TwoPartsWithTwoHolesAndCenterQuarter_FourIslands
+      fullName: QuickShape.ClipperPolygonClippingServiceTest.SeparateIslands_TwoPartsWithTwoHolesAndCenterQuarter_FourIslands
+      resultStatus: 1
+      duration: 0.0151424
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.CloseUVSpaceSegmentServiceTest][suite]'
+      name: CloseUVSpaceSegmentServiceTest
+      fullName: QuickShape.CloseUVSpaceSegmentServiceTest
+      resultStatus: 1
+      duration: 0.2230453
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.CloseUVSpaceSegmentServiceTest.CurveEndingOnCornerPointIsHandledCorrectly]'
+      name: CurveEndingOnCornerPointIsHandledCorrectly
+      fullName: QuickShape.CloseUVSpaceSegmentServiceTest.CurveEndingOnCornerPointIsHandledCorrectly
+      resultStatus: 1
+      duration: 0.0156689
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.CloseUVSpaceSegmentServiceTest.CurveStartingOnCornerPointIsHandledCorrectly]'
+      name: CurveStartingOnCornerPointIsHandledCorrectly
+      fullName: QuickShape.CloseUVSpaceSegmentServiceTest.CurveStartingOnCornerPointIsHandledCorrectly
+      resultStatus: 1
+      duration: 0.0145782
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.CloseUVSpaceSegmentServiceTest.InvalidEndPointThrows]'
+      name: InvalidEndPointThrows
+      fullName: QuickShape.CloseUVSpaceSegmentServiceTest.InvalidEndPointThrows
+      resultStatus: 1
+      duration: 0.0135792
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.CloseUVSpaceSegmentServiceTest.InvalidStartPointThrows]'
+      name: InvalidStartPointThrows
+      fullName: QuickShape.CloseUVSpaceSegmentServiceTest.InvalidStartPointThrows
+      resultStatus: 1
+      duration: 0.0176219
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.CloseUVSpaceSegmentServiceTest.NoGivenPointsAreModified]'
+      name: NoGivenPointsAreModified
+      fullName: QuickShape.CloseUVSpaceSegmentServiceTest.NoGivenPointsAreModified
+      resultStatus: 1
+      duration: 0.014894
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.CloseUVSpaceSegmentServiceTest.PointsAreAddedCorrectly]'
+      name: PointsAreAddedCorrectly
+      fullName: QuickShape.CloseUVSpaceSegmentServiceTest.PointsAreAddedCorrectly
+      resultStatus: 1
+      duration: 0.0149983
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.CloseUVSpaceSegmentServiceTest.SegmentThatEndsOnDifferentBordersIsClosed]'
+      name: SegmentThatEndsOnDifferentBordersIsClosed
+      fullName: QuickShape.CloseUVSpaceSegmentServiceTest.SegmentThatEndsOnDifferentBordersIsClosed
+      resultStatus: 1
+      duration: 0.0157408
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.CloseUVSpaceSegmentServiceTest.SegmentThatIsClosedOnSameBorderStaysClosed]'
+      name: SegmentThatIsClosedOnSameBorderStaysClosed
+      fullName: QuickShape.CloseUVSpaceSegmentServiceTest.SegmentThatIsClosedOnSameBorderStaysClosed
+      resultStatus: 1
+      duration: 0.0159564
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.CombineTrimCurveServiceTest][suite]'
+      name: CombineTrimCurveServiceTest
+      fullName: QuickShape.CombineTrimCurveServiceTest
+      resultStatus: 1
+      duration: 0.2791354
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.CombineTrimCurveServiceTest.ComplexIntersectionTest]'
+      name: ComplexIntersectionTest
+      fullName: QuickShape.CombineTrimCurveServiceTest.ComplexIntersectionTest
+      resultStatus: 1
+      duration: 0.0142906
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.CombineTrimCurveServiceTest.DisjointCurvesLeadToEmptyTrimArea]'
+      name: DisjointCurvesLeadToEmptyTrimArea
+      fullName: QuickShape.CombineTrimCurveServiceTest.DisjointCurvesLeadToEmptyTrimArea
+      resultStatus: 1
+      duration: 0.0153899
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.CombineTrimCurveServiceTest.DisjointTouchingCurvesLeadToEmptyTrimArea]'
+      name: DisjointTouchingCurvesLeadToEmptyTrimArea
+      fullName: QuickShape.CombineTrimCurveServiceTest.DisjointTouchingCurvesLeadToEmptyTrimArea
+      resultStatus: 1
+      duration: 0.0151754
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.CombineTrimCurveServiceTest.EmptyExistingTrimmingWithPolygonLeadsToPolygon]'
+      name: EmptyExistingTrimmingWithPolygonLeadsToPolygon
+      fullName: QuickShape.CombineTrimCurveServiceTest.EmptyExistingTrimmingWithPolygonLeadsToPolygon
+      resultStatus: 1
+      duration: 0.0160249
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.CombineTrimCurveServiceTest.ExistingTrimCurvesWithHolesAreKeptCorrectly]'
+      name: ExistingTrimCurvesWithHolesAreKeptCorrectly
+      fullName: QuickShape.CombineTrimCurveServiceTest.ExistingTrimCurvesWithHolesAreKeptCorrectly
+      resultStatus: 1
+      duration: 0.0161003
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.CombineTrimCurveServiceTest.IncludedCurvesLeadToIntersectedTrimArea]'
+      name: IncludedCurvesLeadToIntersectedTrimArea
+      fullName: QuickShape.CombineTrimCurveServiceTest.IncludedCurvesLeadToIntersectedTrimArea
+      resultStatus: 1
+      duration: 0.0189715
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.CombineTrimCurveServiceTest.IntersectingCurvesLeadToIntersectedTrimArea]'
+      name: IntersectingCurvesLeadToIntersectedTrimArea
+      fullName: QuickShape.CombineTrimCurveServiceTest.IntersectingCurvesLeadToIntersectedTrimArea
+      resultStatus: 1
+      duration: 0.0150889
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.CombineTrimCurveServiceTest.IntersectingCurvesLeadToIntersectedTrimAreaWhenExistingCurvesAreSeperated]'
+      name: IntersectingCurvesLeadToIntersectedTrimAreaWhenExistingCurvesAreSeperated
+      fullName: QuickShape.CombineTrimCurveServiceTest.IntersectingCurvesLeadToIntersectedTrimAreaWhenExistingCurvesAreSeperated
+      resultStatus: 1
+      duration: 0.0159464
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.CombineTrimCurveServiceTest.IntersectionWithHolePatternLeadsToTrimAreaWithHole]'
+      name: IntersectionWithHolePatternLeadsToTrimAreaWithHole
+      fullName: QuickShape.CombineTrimCurveServiceTest.IntersectionWithHolePatternLeadsToTrimAreaWithHole
+      resultStatus: 1
+      duration: 0.0162766
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.CombineTrimCurveServiceTest.PartiallyOverlappingCurvesWithHoleAreTrimmedCorrectly]'
+      name: PartiallyOverlappingCurvesWithHoleAreTrimmedCorrectly
+      fullName: QuickShape.CombineTrimCurveServiceTest.PartiallyOverlappingCurvesWithHoleAreTrimmedCorrectly
+      resultStatus: 1
+      duration: 0.0162876
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.CreatePolygonsForMarkedIslandsServiceTest][suite]'
+      name: CreatePolygonsForMarkedIslandsServiceTest
+      fullName: QuickShape.CreatePolygonsForMarkedIslandsServiceTest
+      resultStatus: 1
+      duration: 0.1397237
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.CreatePolygonsForMarkedIslandsServiceTest.AllIslandsAreDiscarded]'
+      name: AllIslandsAreDiscarded
+      fullName: QuickShape.CreatePolygonsForMarkedIslandsServiceTest.AllIslandsAreDiscarded
+      resultStatus: 1
+      duration: 0.0171381
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.CreatePolygonsForMarkedIslandsServiceTest.OneMarkedIslandOutOfTwoIsDiscarded]'
+      name: OneMarkedIslandOutOfTwoIsDiscarded
+      fullName: QuickShape.CreatePolygonsForMarkedIslandsServiceTest.OneMarkedIslandOutOfTwoIsDiscarded
+      resultStatus: 1
+      duration: 0.0148611
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.CreatePolygonsForMarkedIslandsServiceTest.OneMarkedIslandOutOfTwoIsKept]'
+      name: OneMarkedIslandOutOfTwoIsKept
+      fullName: QuickShape.CreatePolygonsForMarkedIslandsServiceTest.OneMarkedIslandOutOfTwoIsKept
+      resultStatus: 1
+      duration: 0.0161707
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.CreatePolygonsForMarkedIslandsServiceTest.TwoMarkedIslandOutOfTwoAreNotDiscarded]'
+      name: TwoMarkedIslandOutOfTwoAreNotDiscarded
+      fullName: QuickShape.CreatePolygonsForMarkedIslandsServiceTest.TwoMarkedIslandOutOfTwoAreNotDiscarded
+      resultStatus: 1
+      duration: 0.016557
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.CreatePolygonsForMarkedIslandsServiceTest.TwoMarkedIslandOutOfTwoIsKept]'
+      name: TwoMarkedIslandOutOfTwoIsKept
+      fullName: QuickShape.CreatePolygonsForMarkedIslandsServiceTest.TwoMarkedIslandOutOfTwoIsKept
+      resultStatus: 1
+      duration: 0.0149523
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.CreatePolygonsOutOfProjectedSegmentsServiceTest][suite]'
+      name: CreatePolygonsOutOfProjectedSegmentsServiceTest
+      fullName: QuickShape.CreatePolygonsOutOfProjectedSegmentsServiceTest
+      resultStatus: 1
+      duration: 0.2626996
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.CreatePolygonsOutOfProjectedSegmentsServiceTest.CloseUVSpaceSegmentServiceIsCalledOnNonClosedValidProjectedSegments]'
+      name: CloseUVSpaceSegmentServiceIsCalledOnNonClosedValidProjectedSegments
+      fullName: QuickShape.CreatePolygonsOutOfProjectedSegmentsServiceTest.CloseUVSpaceSegmentServiceIsCalledOnNonClosedValidProjectedSegments
+      resultStatus: 1
+      duration: 0.1641542
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.CreatePolygonsOutOfProjectedSegmentsServiceTest.ForEachValidClosedSegmentAPolygonIsCreated]'
+      name: ForEachValidClosedSegmentAPolygonIsCreated
+      fullName: QuickShape.CreatePolygonsOutOfProjectedSegmentsServiceTest.ForEachValidClosedSegmentAPolygonIsCreated
+      resultStatus: 1
+      duration: 0.0167916
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.CreatePolygonsOutOfProjectedSegmentsServiceTest.ForEachValidNonClosedSegmentAPolygonIsCreated]'
+      name: ForEachValidNonClosedSegmentAPolygonIsCreated
+      fullName: QuickShape.CreatePolygonsOutOfProjectedSegmentsServiceTest.ForEachValidNonClosedSegmentAPolygonIsCreated
+      resultStatus: 1
+      duration: 0.0162248
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.CreatePolygonsOutOfProjectedSegmentsServiceTest.PolygonPointsAreTheTexCoordsFromProjectedSegment]'
+      name: PolygonPointsAreTheTexCoordsFromProjectedSegment
+      fullName: QuickShape.CreatePolygonsOutOfProjectedSegmentsServiceTest.PolygonPointsAreTheTexCoordsFromProjectedSegment
+      resultStatus: 1
+      duration: 0.0159212
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.DecisionUIBehaviourTests][suite]'
+      name: DecisionUIBehaviourTests
+      fullName: QuickShape.DecisionUIBehaviourTests
+      resultStatus: 1
+      duration: 0.2090903
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.DecisionUIBehaviourTests.ButtonCallbackIsCalled]'
+      name: ButtonCallbackIsCalled
+      fullName: QuickShape.DecisionUIBehaviourTests.ButtonCallbackIsCalled
+      resultStatus: 1
+      duration: 0.0490276
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.DecisionUIBehaviourTests.ButtonsAreCreatedForEveryCallback]'
+      name: ButtonsAreCreatedForEveryCallback
+      fullName: QuickShape.DecisionUIBehaviourTests.ButtonsAreCreatedForEveryCallback
+      resultStatus: 1
+      duration: 0.0183249
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.DecisionUIBehaviourTests.ButtonTextIsShownCorrectly]'
+      name: ButtonTextIsShownCorrectly
+      fullName: QuickShape.DecisionUIBehaviourTests.ButtonTextIsShownCorrectly
+      resultStatus: 1
+      duration: 0.0149539
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.DecisionUIBehaviourTests.DecisionUIIsDisposedAfterButtonClick]'
+      name: DecisionUIIsDisposedAfterButtonClick
+      fullName: QuickShape.DecisionUIBehaviourTests.DecisionUIIsDisposedAfterButtonClick
+      resultStatus: 1
+      duration: 0.016152
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.DecisionUIBehaviourTests.LocalSetUpIsCalledWithCorrectTitle]'
+      name: LocalSetUpIsCalledWithCorrectTitle
+      fullName: QuickShape.DecisionUIBehaviourTests.LocalSetUpIsCalledWithCorrectTitle
+      resultStatus: 1
+      duration: 0.0145027
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.DecisionUIBehaviourTests.ParentOfButtonIsSetCorrectly]'
+      name: ParentOfButtonIsSetCorrectly
+      fullName: QuickShape.DecisionUIBehaviourTests.ParentOfButtonIsSetCorrectly
+      resultStatus: 1
+      duration: 0.0171229
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.EvaluateMarkedUVPointsServiceTest][suite]'
+      name: EvaluateMarkedUVPointsServiceTest
+      fullName: QuickShape.EvaluateMarkedUVPointsServiceTest
+      resultStatus: 1
+      duration: 0.2011958
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.EvaluateMarkedUVPointsServiceTest.AreaMarkedOnce_TrueInMarkingList]'
+      name: AreaMarkedOnce_TrueInMarkingList
+      fullName: QuickShape.EvaluateMarkedUVPointsServiceTest.AreaMarkedOnce_TrueInMarkingList
+      resultStatus: 1
+      duration: 0.0163147
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.EvaluateMarkedUVPointsServiceTest.AreaMarkedTwice_FalseInMarkingList]'
+      name: AreaMarkedTwice_FalseInMarkingList
+      fullName: QuickShape.EvaluateMarkedUVPointsServiceTest.AreaMarkedTwice_FalseInMarkingList
+      resultStatus: 1
+      duration: 0.0159753
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.EvaluateMarkedUVPointsServiceTest.AreaMarkedTwice_MarkedUVPointsAreRemoved]'
+      name: AreaMarkedTwice_MarkedUVPointsAreRemoved
+      fullName: QuickShape.EvaluateMarkedUVPointsServiceTest.AreaMarkedTwice_MarkedUVPointsAreRemoved
+      resultStatus: 1
+      duration: 0.0162309
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.EvaluateMarkedUVPointsServiceTest.AreaNotMarked_FalseInMarkingLIst]'
+      name: AreaNotMarked_FalseInMarkingLIst
+      fullName: QuickShape.EvaluateMarkedUVPointsServiceTest.AreaNotMarked_FalseInMarkingLIst
+      resultStatus: 1
+      duration: 0.0163827
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.EvaluateMarkedUVPointsServiceTest.AreaWithHoleMarkedInsideHole_FalseInMarkingList]'
+      name: AreaWithHoleMarkedInsideHole_FalseInMarkingList
+      fullName: QuickShape.EvaluateMarkedUVPointsServiceTest.AreaWithHoleMarkedInsideHole_FalseInMarkingList
+      resultStatus: 1
+      duration: 0.0159719
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.EvaluateMarkedUVPointsServiceTest.MarkingDirectlyOnEdgeDoesNotCount]'
+      name: MarkingDirectlyOnEdgeDoesNotCount
+      fullName: QuickShape.EvaluateMarkedUVPointsServiceTest.MarkingDirectlyOnEdgeDoesNotCount
+      resultStatus: 1
+      duration: 0.018018
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.EvaluateMarkedUVPointsServiceTest.MultipleAreasAreProcessedCorrectly]'
+      name: MultipleAreasAreProcessedCorrectly
+      fullName: QuickShape.EvaluateMarkedUVPointsServiceTest.MultipleAreasAreProcessedCorrectly
+      resultStatus: 1
+      duration: 0.0163523
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.GenerateMeshTrimPreviewServiceTest][suite]'
+      name: GenerateMeshTrimPreviewServiceTest
+      fullName: QuickShape.GenerateMeshTrimPreviewServiceTest
+      resultStatus: 1
+      duration: 1.5191585
+      messages: 
+      output: "The loaded level has a different lightmaps mode than the current one.
+        Current: Directional. Loaded: Non-Directional. Will use: Directional.\r\n"
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.GenerateMeshTrimPreviewServiceTest.OneInvalidSegmentIsRenderedRed]'
+      name: OneInvalidSegmentIsRenderedRed
+      fullName: QuickShape.GenerateMeshTrimPreviewServiceTest.OneInvalidSegmentIsRenderedRed
+      resultStatus: 1
+      duration: 0.2103537
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.GenerateMeshTrimPreviewServiceTest.OneValidSegmentIsRenderedGreen]'
+      name: OneValidSegmentIsRenderedGreen
+      fullName: QuickShape.GenerateMeshTrimPreviewServiceTest.OneValidSegmentIsRenderedGreen
+      resultStatus: 1
+      duration: 0.068259
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.GenerateMeshTrimPreviewServiceTest.OneValidSegmentIsRenderedGreenFromTheOtherSide]'
+      name: OneValidSegmentIsRenderedGreenFromTheOtherSide
+      fullName: QuickShape.GenerateMeshTrimPreviewServiceTest.OneValidSegmentIsRenderedGreenFromTheOtherSide
+      resultStatus: 1
+      duration: 0.06833
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.GenerateMeshTrimPreviewServiceTest.TwoDifferentSegmentsAreRenderedRedAndGreen]'
+      name: TwoDifferentSegmentsAreRenderedRedAndGreen
+      fullName: QuickShape.GenerateMeshTrimPreviewServiceTest.TwoDifferentSegmentsAreRenderedRedAndGreen
+      resultStatus: 1
+      duration: 0.0604864
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.GenerateMeshTrimPreviewServiceTest.TwoDifferentSegmentsFromTwoFunctionCallsAreRenderedRedAndGreen]'
+      name: TwoDifferentSegmentsFromTwoFunctionCallsAreRenderedRedAndGreen
+      fullName: QuickShape.GenerateMeshTrimPreviewServiceTest.TwoDifferentSegmentsFromTwoFunctionCallsAreRenderedRedAndGreen
+      resultStatus: 1
+      duration: 0.0611771
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.InputSceneManagerTest][suite]'
+      name: InputSceneManagerTest
+      fullName: QuickShape.InputSceneManagerTest
+      resultStatus: 1
+      duration: 0.4079988
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.InputSceneManagerTest.ObjectsAreDisabledOnMenueCall]'
+      name: ObjectsAreDisabledOnMenueCall
+      fullName: QuickShape.InputSceneManagerTest.ObjectsAreDisabledOnMenueCall
+      resultStatus: 1
+      duration: 0.1679048
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.InputSceneManagerTest.ObjectsAreEnabledOnMenueClose]'
+      name: ObjectsAreEnabledOnMenueClose
+      fullName: QuickShape.InputSceneManagerTest.ObjectsAreEnabledOnMenueClose
+      resultStatus: 1
+      duration: 0.0913653
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.LerpSceneTransformationTest][suite]'
+      name: LerpSceneTransformationTest
+      fullName: QuickShape.LerpSceneTransformationTest
+      resultStatus: 1
+      duration: 0.9745373
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.LerpSceneTransformationTest.SetsDesiredTransformationToNullAfterCompletingAFullLerp]'
+      name: SetsDesiredTransformationToNullAfterCompletingAFullLerp
+      fullName: QuickShape.LerpSceneTransformationTest.SetsDesiredTransformationToNullAfterCompletingAFullLerp
+      resultStatus: 1
+      duration: 0.0937587
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.LerpSceneTransformationTest.SetsTransformToExactLerpToValueAfterPerformingAFullLerpTime]'
+      name: SetsTransformToExactLerpToValueAfterPerformingAFullLerpTime
+      fullName: QuickShape.LerpSceneTransformationTest.SetsTransformToExactLerpToValueAfterPerformingAFullLerpTime
+      resultStatus: 1
+      duration: 0.1930225
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.LerpSceneTransformationTest.TransformsAllTheTransformationInformationToTheGoalTransformation]'
+      name: TransformsAllTheTransformationInformationToTheGoalTransformation
+      fullName: QuickShape.LerpSceneTransformationTest.TransformsAllTheTransformationInformationToTheGoalTransformation
+      resultStatus: 1
+      duration: 0.0161675
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.LerpSceneTransformationTest.TransformsThePositionToTheGoalPositionInOneFrame]'
+      name: TransformsThePositionToTheGoalPositionInOneFrame
+      fullName: QuickShape.LerpSceneTransformationTest.TransformsThePositionToTheGoalPositionInOneFrame
+      resultStatus: 1
+      duration: 0.0160503
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.LerpSceneTransformationTest.TransformsThePositionToTheGoalPositionInTenFrames][suite]'
+      name: TransformsThePositionToTheGoalPositionInTenFrames
+      fullName: QuickShape.LerpSceneTransformationTest.TransformsThePositionToTheGoalPositionInTenFrames
+      resultStatus: 1
+      duration: 0.0866353
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.LerpSceneTransformationTest.TransformsThePositionToTheGoalPositionInTenFrames(1.0f)]'
+      name: TransformsThePositionToTheGoalPositionInTenFrames(1.0f)
+      fullName: QuickShape.LerpSceneTransformationTest.TransformsThePositionToTheGoalPositionInTenFrames(1.0f)
+      resultStatus: 1
+      duration: 0.0178745
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.LerpSceneTransformationTest.TransformsThePositionToTheGoalPositionInTenFrames(2.741f)]'
+      name: TransformsThePositionToTheGoalPositionInTenFrames(2.741f)
+      fullName: QuickShape.LerpSceneTransformationTest.TransformsThePositionToTheGoalPositionInTenFrames(2.741f)
+      resultStatus: 1
+      duration: 0.0144001
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.LerpSceneTransformationTest.TransformsThePositionToTheGoalPositionInTenFrames(394.2f)]'
+      name: TransformsThePositionToTheGoalPositionInTenFrames(394.2f)
+      fullName: QuickShape.LerpSceneTransformationTest.TransformsThePositionToTheGoalPositionInTenFrames(394.2f)
+      resultStatus: 1
+      duration: 0.0152641
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.LerpSceneTransformationTest.TransformsTheRotationToTheGoalRotationInOneFrame]'
+      name: TransformsTheRotationToTheGoalRotationInOneFrame
+      fullName: QuickShape.LerpSceneTransformationTest.TransformsTheRotationToTheGoalRotationInOneFrame
+      resultStatus: 1
+      duration: 0.0172591
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.LerpSceneTransformationTest.TransformsTheRotationToTheGoalRotationInTenFrames][suite]'
+      name: TransformsTheRotationToTheGoalRotationInTenFrames
+      fullName: QuickShape.LerpSceneTransformationTest.TransformsTheRotationToTheGoalRotationInTenFrames
+      resultStatus: 1
+      duration: 0.1195154
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.LerpSceneTransformationTest.TransformsTheRotationToTheGoalRotationInTenFrames(10.0f)]'
+      name: TransformsTheRotationToTheGoalRotationInTenFrames(10.0f)
+      fullName: QuickShape.LerpSceneTransformationTest.TransformsTheRotationToTheGoalRotationInTenFrames(10.0f)
+      resultStatus: 1
+      duration: 0.020657
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.LerpSceneTransformationTest.TransformsTheRotationToTheGoalRotationInTenFrames(20.0f)]'
+      name: TransformsTheRotationToTheGoalRotationInTenFrames(20.0f)
+      fullName: QuickShape.LerpSceneTransformationTest.TransformsTheRotationToTheGoalRotationInTenFrames(20.0f)
+      resultStatus: 1
+      duration: 0.0167154
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.LerpSceneTransformationTest.TransformsTheRotationToTheGoalRotationInTenFrames(30.0f)]'
+      name: TransformsTheRotationToTheGoalRotationInTenFrames(30.0f)
+      fullName: QuickShape.LerpSceneTransformationTest.TransformsTheRotationToTheGoalRotationInTenFrames(30.0f)
+      resultStatus: 1
+      duration: 0.0172159
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.LerpSceneTransformationTest.TransformsTheRotationToTheGoalRotationInTenFrames(90.0f)]'
+      name: TransformsTheRotationToTheGoalRotationInTenFrames(90.0f)
+      fullName: QuickShape.LerpSceneTransformationTest.TransformsTheRotationToTheGoalRotationInTenFrames(90.0f)
+      resultStatus: 1
+      duration: 0.0170161
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.LerpSceneTransformationTest.TransformsTheScaleToTheGoalScaleInOneFrame]'
+      name: TransformsTheScaleToTheGoalScaleInOneFrame
+      fullName: QuickShape.LerpSceneTransformationTest.TransformsTheScaleToTheGoalScaleInOneFrame
+      resultStatus: 1
+      duration: 0.0192234
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.LerpSceneTransformationTest.TransformsTheScaleToTheGoalScaleInTenFrames][suite]'
+      name: TransformsTheScaleToTheGoalScaleInTenFrames
+      fullName: QuickShape.LerpSceneTransformationTest.TransformsTheScaleToTheGoalScaleInTenFrames
+      resultStatus: 1
+      duration: 0.0891323
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.LerpSceneTransformationTest.TransformsTheScaleToTheGoalScaleInTenFrames(0.0f)]'
+      name: TransformsTheScaleToTheGoalScaleInTenFrames(0.0f)
+      fullName: QuickShape.LerpSceneTransformationTest.TransformsTheScaleToTheGoalScaleInTenFrames(0.0f)
+      resultStatus: 1
+      duration: 0.0167022
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.LerpSceneTransformationTest.TransformsTheScaleToTheGoalScaleInTenFrames(1.5f)]'
+      name: TransformsTheScaleToTheGoalScaleInTenFrames(1.5f)
+      fullName: QuickShape.LerpSceneTransformationTest.TransformsTheScaleToTheGoalScaleInTenFrames(1.5f)
+      resultStatus: 1
+      duration: 0.016514
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.LerpSceneTransformationTest.TransformsTheScaleToTheGoalScaleInTenFrames(5.0f)]'
+      name: TransformsTheScaleToTheGoalScaleInTenFrames(5.0f)
+      fullName: QuickShape.LerpSceneTransformationTest.TransformsTheScaleToTheGoalScaleInTenFrames(5.0f)
+      resultStatus: 1
+      duration: 0.0164976
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.LoadImageServiceTest][suite]'
+      name: LoadImageServiceTest
+      fullName: QuickShape.LoadImageServiceTest
+      resultStatus: 1
+      duration: 0.1240731
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.LoadImageServiceTest.ATextureWithDpiInformationIsReturnedIfAValidFileNameIsGiven]'
+      name: ATextureWithDpiInformationIsReturnedIfAValidFileNameIsGiven
+      fullName: QuickShape.LoadImageServiceTest.ATextureWithDpiInformationIsReturnedIfAValidFileNameIsGiven
+      resultStatus: 1
+      duration: 0.0243285
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.LoadImageServiceTest.DensityOfTExtureisSetToOneIfDensityDoesNotExist]'
+      name: DensityOfTExtureisSetToOneIfDensityDoesNotExist
+      fullName: QuickShape.LoadImageServiceTest.DensityOfTExtureisSetToOneIfDensityDoesNotExist
+      resultStatus: 1
+      duration: 0.0175887
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.LoadImageServiceTest.JPEGTextureDensityIsAdjustedCorrectly]'
+      name: JPEGTextureDensityIsAdjustedCorrectly
+      fullName: QuickShape.LoadImageServiceTest.JPEGTextureDensityIsAdjustedCorrectly
+      resultStatus: 1
+      duration: 0.0172641
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.LoadImageServiceTest.JPGTextureDensityIsAdjustedCorrectly]'
+      name: JPGTextureDensityIsAdjustedCorrectly
+      fullName: QuickShape.LoadImageServiceTest.JPGTextureDensityIsAdjustedCorrectly
+      resultStatus: 1
+      duration: 0.0156653
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.LoadSketchImageBehaviourTest][suite]'
+      name: LoadSketchImageBehaviourTest
+      fullName: QuickShape.LoadSketchImageBehaviourTest
+      resultStatus: 1
+      duration: 0.1442198
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.LoadSketchImageBehaviourTest.DecisionMenuIsDisplayedIfTextureIsNotNull]'
+      name: DecisionMenuIsDisplayedIfTextureIsNotNull
+      fullName: QuickShape.LoadSketchImageBehaviourTest.DecisionMenuIsDisplayedIfTextureIsNotNull
+      resultStatus: 1
+      duration: 0.0201577
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.LoadSketchImageBehaviourTest.DecisionMenuIsSetToACanvas]'
+      name: DecisionMenuIsSetToACanvas
+      fullName: QuickShape.LoadSketchImageBehaviourTest.DecisionMenuIsSetToACanvas
+      resultStatus: 1
+      duration: 0.0128945
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.LoadSketchImageBehaviourTest.NoDecisionMenuIsDisplayedIfTextureIsNull]'
+      name: NoDecisionMenuIsDisplayedIfTextureIsNull
+      fullName: QuickShape.LoadSketchImageBehaviourTest.NoDecisionMenuIsDisplayedIfTextureIsNull
+      resultStatus: 1
+      duration: 0.0115926
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.LoadSketchImageBehaviourTest.NoImageIsLoadedIfFilePathIsEmptyString]'
+      name: NoImageIsLoadedIfFilePathIsEmptyString
+      fullName: QuickShape.LoadSketchImageBehaviourTest.NoImageIsLoadedIfFilePathIsEmptyString
+      resultStatus: 1
+      duration: 0.0105657
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.LoadSketchImageBehaviourTest.NoImageIsLoadedIfFilePathIsNull]'
+      name: NoImageIsLoadedIfFilePathIsNull
+      fullName: QuickShape.LoadSketchImageBehaviourTest.NoImageIsLoadedIfFilePathIsNull
+      resultStatus: 1
+      duration: 0.0105514
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.MovePointsToUVBordersServiceTest][suite]'
+      name: MovePointsToUVBordersServiceTest
+      fullName: QuickShape.MovePointsToUVBordersServiceTest
+      resultStatus: 1
+      duration: 0.1858347
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.MovePointsToUVBordersServiceTest.EmptyListIsNotChanged]'
+      name: EmptyListIsNotChanged
+      fullName: QuickShape.MovePointsToUVBordersServiceTest.EmptyListIsNotChanged
+      resultStatus: 1
+      duration: 0.0101516
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.MovePointsToUVBordersServiceTest.InvalidPointsAreNotChanged]'
+      name: InvalidPointsAreNotChanged
+      fullName: QuickShape.MovePointsToUVBordersServiceTest.InvalidPointsAreNotChanged
+      resultStatus: 1
+      duration: 0.0119606
+      messages: 
+      output: "Points were invalid, so nothing was moved.\r\nPoints were invalid,
+        so nothing was moved.\r\n"
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.MovePointsToUVBordersServiceTest.ListWithOnePointIsNotChanged]'
+      name: ListWithOnePointIsNotChanged
+      fullName: QuickShape.MovePointsToUVBordersServiceTest.ListWithOnePointIsNotChanged
+      resultStatus: 1
+      duration: 0.0128126
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.MovePointsToUVBordersServiceTest.ProblematicPointDoesNotLeadToRoundingErrors]'
+      name: ProblematicPointDoesNotLeadToRoundingErrors
+      fullName: QuickShape.MovePointsToUVBordersServiceTest.ProblematicPointDoesNotLeadToRoundingErrors
+      resultStatus: 1
+      duration: 0.0102273
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.MovePointsToUVBordersServiceTest.TheMiddleOfThreePointsIsNotChanged]'
+      name: TheMiddleOfThreePointsIsNotChanged
+      fullName: QuickShape.MovePointsToUVBordersServiceTest.TheMiddleOfThreePointsIsNotChanged
+      resultStatus: 1
+      duration: 0.0108312
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.MovePointsToUVBordersServiceTest.TwoDiagonalPointsAreMovedToTheBorders]'
+      name: TwoDiagonalPointsAreMovedToTheBorders
+      fullName: QuickShape.MovePointsToUVBordersServiceTest.TwoDiagonalPointsAreMovedToTheBorders
+      resultStatus: 1
+      duration: 0.0111564
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.MovePointsToUVBordersServiceTest.TwoHorizontalPointsAreMovedToTheBorders]'
+      name: TwoHorizontalPointsAreMovedToTheBorders
+      fullName: QuickShape.MovePointsToUVBordersServiceTest.TwoHorizontalPointsAreMovedToTheBorders
+      resultStatus: 1
+      duration: 0.0109548
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.MovePointsToUVBordersServiceTest.TwoVerticalPointsAreMovedToTheBorders]'
+      name: TwoVerticalPointsAreMovedToTheBorders
+      fullName: QuickShape.MovePointsToUVBordersServiceTest.TwoVerticalPointsAreMovedToTheBorders
+      resultStatus: 1
+      duration: 0.0101442
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsConnectionServiceTest][suite]'
+      name: NurbsConnectionServiceTest
+      fullName: QuickShape.NurbsConnectionServiceTest
+      resultStatus: 1
+      duration: 0.115963
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsConnectionServiceTest.Connect_NullTarget_NothingHappens]'
+      name: Connect_NullTarget_NothingHappens
+      fullName: QuickShape.NurbsConnectionServiceTest.Connect_NullTarget_NothingHappens
+      resultStatus: 1
+      duration: 0.0182699
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsConnectionServiceTest.Connect_SourceCVsSnapToTargetCVs_2CVs_NotTwisted]'
+      name: Connect_SourceCVsSnapToTargetCVs_2CVs_NotTwisted
+      fullName: QuickShape.NurbsConnectionServiceTest.Connect_SourceCVsSnapToTargetCVs_2CVs_NotTwisted
+      resultStatus: 1
+      duration: 0.0143726
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsConnectionServiceTest.Connect_SourceCVsSnapToTargetCVs_4CVs_Twisted]'
+      name: Connect_SourceCVsSnapToTargetCVs_4CVs_Twisted
+      fullName: QuickShape.NurbsConnectionServiceTest.Connect_SourceCVsSnapToTargetCVs_4CVs_Twisted
+      resultStatus: 1
+      duration: 0.0152029
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsConnectionServiceTest.Connect_SourceDontChange_DifferentNumberOfCVs]'
+      name: Connect_SourceDontChange_DifferentNumberOfCVs
+      fullName: QuickShape.NurbsConnectionServiceTest.Connect_SourceDontChange_DifferentNumberOfCVs
+      resultStatus: 1
+      duration: 0.0144599
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsCurveApproximationTest][suite]'
+      name: NurbsCurveApproximationTest
+      fullName: QuickShape.NurbsCurveApproximationTest
+      resultStatus: 1
+      duration: 0.1205055
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsCurveApproximationTest.ApproximatePointsWithNurbsCurve_Degree3CurveExplicit_IsReconstructed]'
+      name: ApproximatePointsWithNurbsCurve_Degree3CurveExplicit_IsReconstructed
+      fullName: QuickShape.NurbsCurveApproximationTest.ApproximatePointsWithNurbsCurve_Degree3CurveExplicit_IsReconstructed
+      resultStatus: 1
+      duration: 0.0380271
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsCurveApproximationTest.ApproximatePointsWithNurbsCurve_Degree3CurveIterative_IsReconstructed]'
+      name: ApproximatePointsWithNurbsCurve_Degree3CurveIterative_IsReconstructed
+      fullName: QuickShape.NurbsCurveApproximationTest.ApproximatePointsWithNurbsCurve_Degree3CurveIterative_IsReconstructed
+      resultStatus: 1
+      duration: 0.0581069
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsSurfaceTest][suite]'
+      name: NurbsSurfaceTest
+      fullName: QuickShape.NurbsSurfaceTest
+      resultStatus: 1
+      duration: 0.3753539
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsSurfaceTest.BuildingTrimCurveMaskForEmptySurfaceThrows]'
+      name: BuildingTrimCurveMaskForEmptySurfaceThrows
+      fullName: QuickShape.NurbsSurfaceTest.BuildingTrimCurveMaskForEmptySurfaceThrows
+      resultStatus: 1
+      duration: 0.0187841
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsSurfaceTest.BuildTrimCurveMaskServiceIsCalledCorrectly]'
+      name: BuildTrimCurveMaskServiceIsCalledCorrectly
+      fullName: QuickShape.NurbsSurfaceTest.BuildTrimCurveMaskServiceIsCalledCorrectly
+      resultStatus: 1
+      duration: 0.0235869
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsSurfaceTest.CorrectFatBorderWidthIsUsed]'
+      name: CorrectFatBorderWidthIsUsed
+      fullName: QuickShape.NurbsSurfaceTest.CorrectFatBorderWidthIsUsed
+      resultStatus: 1
+      duration: 0.0231213
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsSurfaceTest.CorrectKnotSpanIsUsed]'
+      name: CorrectKnotSpanIsUsed
+      fullName: QuickShape.NurbsSurfaceTest.CorrectKnotSpanIsUsed
+      resultStatus: 1
+      duration: 0.0217112
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsSurfaceTest.CorrectTrimCurveIsUsed]'
+      name: CorrectTrimCurveIsUsed
+      fullName: QuickShape.NurbsSurfaceTest.CorrectTrimCurveIsUsed
+      resultStatus: 1
+      duration: 0.0228966
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsSurfaceTest.CreatedRenderTextureIsUsedByNurbsSurface]'
+      name: CreatedRenderTextureIsUsedByNurbsSurface
+      fullName: QuickShape.NurbsSurfaceTest.CreatedRenderTextureIsUsedByNurbsSurface
+      resultStatus: 1
+      duration: 0.0228667
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsSurfaceTest.HugeSurfaceLeadsToMaximumTextureSize]'
+      name: HugeSurfaceLeadsToMaximumTextureSize
+      fullName: QuickShape.NurbsSurfaceTest.HugeSurfaceLeadsToMaximumTextureSize
+      resultStatus: 1
+      duration: 0.0229507
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsSurfaceTest.SurfaceWhoseTrimCurveMaskIsRemovedHasNoTexture]'
+      name: SurfaceWhoseTrimCurveMaskIsRemovedHasNoTexture
+      fullName: QuickShape.NurbsSurfaceTest.SurfaceWhoseTrimCurveMaskIsRemovedHasNoTexture
+      resultStatus: 1
+      duration: 0.0550205
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsSurfaceTest.SurfaceWithNoTrimCurvesGetsNoTexture]'
+      name: SurfaceWithNoTrimCurvesGetsNoTexture
+      fullName: QuickShape.NurbsSurfaceTest.SurfaceWithNoTrimCurvesGetsNoTexture
+      resultStatus: 1
+      duration: 0.0170119
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsSurfaceTest.TinySurfaceLeadsToMinimumTextureSize]'
+      name: TinySurfaceLeadsToMinimumTextureSize
+      fullName: QuickShape.NurbsSurfaceTest.TinySurfaceLeadsToMinimumTextureSize
+      resultStatus: 1
+      duration: 0.0222558
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest][suite]'
+      name: NurbsTrimmingBehaviourTest
+      fullName: QuickShape.NurbsTrimmingBehaviourTest
+      resultStatus: 1
+      duration: 1.2090391
+      messages: One or more child tests were ignored
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.AppliedTwice_ApplyTrimmingIsCalledOnlyOnce]'
+      name: AppliedTwice_ApplyTrimmingIsCalledOnlyOnce
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.AppliedTwice_ApplyTrimmingIsCalledOnlyOnce
+      resultStatus: 4
+      duration: 0.0000187
+      messages: Case is not possible anymore
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 1
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.ApplyButtonIsDisabledIfNoSegmentIsValidForTrimming]'
+      name: ApplyButtonIsDisabledIfNoSegmentIsValidForTrimming
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.ApplyButtonIsDisabledIfNoSegmentIsValidForTrimming
+      resultStatus: 1
+      duration: 0.0263161
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.ApplyButtonIsDisabledWhenSelectionIsInvalid]'
+      name: ApplyButtonIsDisabledWhenSelectionIsInvalid
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.ApplyButtonIsDisabledWhenSelectionIsInvalid
+      resultStatus: 1
+      duration: 0.017776
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.ApplyButtonIsEnabledIfAtLeastOneSegmentIsValidForTrimming]'
+      name: ApplyButtonIsEnabledIfAtLeastOneSegmentIsValidForTrimming
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.ApplyButtonIsEnabledIfAtLeastOneSegmentIsValidForTrimming
+      resultStatus: 1
+      duration: 0.0187912
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.ApplyButtonIsEnabledWhenSelectionIsValid]'
+      name: ApplyButtonIsEnabledWhenSelectionIsValid
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.ApplyButtonIsEnabledWhenSelectionIsValid
+      resultStatus: 1
+      duration: 0.0221449
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.ApplyTrimming_PreviewTrimmingIsNotCalled]'
+      name: ApplyTrimming_PreviewTrimmingIsNotCalled
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.ApplyTrimming_PreviewTrimmingIsNotCalled
+      resultStatus: 4
+      duration: 0.0000197
+      messages: Case is not possible anymore
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 1
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.BatchableIsDestroyedOnApply]'
+      name: BatchableIsDestroyedOnApply
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.BatchableIsDestroyedOnApply
+      resultStatus: 1
+      duration: 0.0202542
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.CurveAndSurfacesAreDeselectedAfterApplyTrimming]'
+      name: CurveAndSurfacesAreDeselectedAfterApplyTrimming
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.CurveAndSurfacesAreDeselectedAfterApplyTrimming
+      resultStatus: 1
+      duration: 0.0203571
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.CurveAndSurfacesAreNotDeselectedAfterPreviewTrimming]'
+      name: CurveAndSurfacesAreNotDeselectedAfterPreviewTrimming
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.CurveAndSurfacesAreNotDeselectedAfterPreviewTrimming
+      resultStatus: 1
+      duration: 0.0198232
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.DeselectedSurfaceHasResetTrimmingCalledCorrectly]'
+      name: DeselectedSurfaceHasResetTrimmingCalledCorrectly
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.DeselectedSurfaceHasResetTrimmingCalledCorrectly
+      resultStatus: 1
+      duration: 0.0189669
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.DirectionXToggled_ApplyTrimmingIsCalledCorrectly]'
+      name: DirectionXToggled_ApplyTrimmingIsCalledCorrectly
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.DirectionXToggled_ApplyTrimmingIsCalledCorrectly
+      resultStatus: 1
+      duration: 0.0199994
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.DirectionXToggled_PreviewTrimmingIsCalledCorrectly]'
+      name: DirectionXToggled_PreviewTrimmingIsCalledCorrectly
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.DirectionXToggled_PreviewTrimmingIsCalledCorrectly
+      resultStatus: 1
+      duration: 0.0166648
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.DirectionXToggledTwice_ApplyTrimmingIsNotCalled]'
+      name: DirectionXToggledTwice_ApplyTrimmingIsNotCalled
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.DirectionXToggledTwice_ApplyTrimmingIsNotCalled
+      resultStatus: 1
+      duration: 0.0169438
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.DirectionXToggledTwice_PreviewTrimmingIsNotCalled]'
+      name: DirectionXToggledTwice_PreviewTrimmingIsNotCalled
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.DirectionXToggledTwice_PreviewTrimmingIsNotCalled
+      resultStatus: 1
+      duration: 0.0183004
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.DirectionYToggled_ApplyTrimmingIsCalledCorrectly]'
+      name: DirectionYToggled_ApplyTrimmingIsCalledCorrectly
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.DirectionYToggled_ApplyTrimmingIsCalledCorrectly
+      resultStatus: 1
+      duration: 0.0176976
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.DirectionYToggled_PreviewTrimmingIsCalledCorrectly]'
+      name: DirectionYToggled_PreviewTrimmingIsCalledCorrectly
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.DirectionYToggled_PreviewTrimmingIsCalledCorrectly
+      resultStatus: 1
+      duration: 0.0174948
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.DirectionYToggledTwice_ApplyTrimmingIsNotCalled]'
+      name: DirectionYToggledTwice_ApplyTrimmingIsNotCalled
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.DirectionYToggledTwice_ApplyTrimmingIsNotCalled
+      resultStatus: 1
+      duration: 0.0176153
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.DirectionYToggledTwice_PreviewTrimmingIsNotCalled]'
+      name: DirectionYToggledTwice_PreviewTrimmingIsNotCalled
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.DirectionYToggledTwice_PreviewTrimmingIsNotCalled
+      resultStatus: 1
+      duration: 0.0162458
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.DirectionZToggled_ApplyTrimmingIsCalledCorrectly]'
+      name: DirectionZToggled_ApplyTrimmingIsCalledCorrectly
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.DirectionZToggled_ApplyTrimmingIsCalledCorrectly
+      resultStatus: 1
+      duration: 0.0184008
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.DirectionZToggled_PreviewTrimmingIsCalledCorrectly]'
+      name: DirectionZToggled_PreviewTrimmingIsCalledCorrectly
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.DirectionZToggled_PreviewTrimmingIsCalledCorrectly
+      resultStatus: 1
+      duration: 0.0168804
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.DirectionZToggledTwice_ApplyTrimmingIsNotCalled]'
+      name: DirectionZToggledTwice_ApplyTrimmingIsNotCalled
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.DirectionZToggledTwice_ApplyTrimmingIsNotCalled
+      resultStatus: 1
+      duration: 0.0179313
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.DirectionZToggledTwice_PreviewTrimmingIsNotCalled]'
+      name: DirectionZToggledTwice_PreviewTrimmingIsNotCalled
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.DirectionZToggledTwice_PreviewTrimmingIsNotCalled
+      resultStatus: 1
+      duration: 0.0168585
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.MultipleSurfacesSelected_ApplyButtonIsEnabledIfOneSegmentIsValidForTrimming]'
+      name: MultipleSurfacesSelected_ApplyButtonIsEnabledIfOneSegmentIsValidForTrimming
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.MultipleSurfacesSelected_ApplyButtonIsEnabledIfOneSegmentIsValidForTrimming
+      resultStatus: 1
+      duration: 0.0171505
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.MultipleSurfacesSelected_PreviewTrimmingIsCalledTwice]'
+      name: MultipleSurfacesSelected_PreviewTrimmingIsCalledTwice
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.MultipleSurfacesSelected_PreviewTrimmingIsCalledTwice
+      resultStatus: 1
+      duration: 0.0174761
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.MutipleSurfaces_ApplyTrimmingIsCalledCorrectly]'
+      name: MutipleSurfaces_ApplyTrimmingIsCalledCorrectly
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.MutipleSurfaces_ApplyTrimmingIsCalledCorrectly
+      resultStatus: 1
+      duration: 0.0213964
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.MutipleTrimmingOperations_ResetIsNotCalled]'
+      name: MutipleTrimmingOperations_ResetIsNotCalled
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.MutipleTrimmingOperations_ResetIsNotCalled
+      resultStatus: 1
+      duration: 0.0217363
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.NoCurveSelected_ApplyTrimmingIsNotCalled]'
+      name: NoCurveSelected_ApplyTrimmingIsNotCalled
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.NoCurveSelected_ApplyTrimmingIsNotCalled
+      resultStatus: 1
+      duration: 0.0168046
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.NoCurveSelected_PreviewedSurfaceHasBeenCachedAndResetTrimmingIsCalledCorrectly]'
+      name: NoCurveSelected_PreviewedSurfaceHasBeenCachedAndResetTrimmingIsCalledCorrectly
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.NoCurveSelected_PreviewedSurfaceHasBeenCachedAndResetTrimmingIsCalledCorrectly
+      resultStatus: 1
+      duration: 0.0161978
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.NoCurveSelected_PreviewTrimmingIsNotCalled]'
+      name: NoCurveSelected_PreviewTrimmingIsNotCalled
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.NoCurveSelected_PreviewTrimmingIsNotCalled
+      resultStatus: 1
+      duration: 0.0159061
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.NoDirectionToggled_ApplyTrimmingIsNotCalled]'
+      name: NoDirectionToggled_ApplyTrimmingIsNotCalled
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.NoDirectionToggled_ApplyTrimmingIsNotCalled
+      resultStatus: 1
+      duration: 0.0165256
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.NoDirectionToggled_PreviewedSurfaceHasBeenCachedAndResetTrimmingIsCalledCorrectly]'
+      name: NoDirectionToggled_PreviewedSurfaceHasBeenCachedAndResetTrimmingIsCalledCorrectly
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.NoDirectionToggled_PreviewedSurfaceHasBeenCachedAndResetTrimmingIsCalledCorrectly
+      resultStatus: 1
+      duration: 0.019205
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.NoDirectionToggled_PreviewTrimmingIsNotCalled]'
+      name: NoDirectionToggled_PreviewTrimmingIsNotCalled
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.NoDirectionToggled_PreviewTrimmingIsNotCalled
+      resultStatus: 1
+      duration: 0.0157422
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.NoDirectionToggled_ResetTrimmingIsCalledCorrectly]'
+      name: NoDirectionToggled_ResetTrimmingIsCalledCorrectly
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.NoDirectionToggled_ResetTrimmingIsCalledCorrectly
+      resultStatus: 1
+      duration: 0.0166993
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.NoSurfaceSelected_ApplyTrimmingIsNotCalled]'
+      name: NoSurfaceSelected_ApplyTrimmingIsNotCalled
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.NoSurfaceSelected_ApplyTrimmingIsNotCalled
+      resultStatus: 1
+      duration: 0.0162855
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.NoSurfaceSelected_PreviewedSurfaceHasBeenCachedAndResetTrimmingIsCalledCorrectly]'
+      name: NoSurfaceSelected_PreviewedSurfaceHasBeenCachedAndResetTrimmingIsCalledCorrectly
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.NoSurfaceSelected_PreviewedSurfaceHasBeenCachedAndResetTrimmingIsCalledCorrectly
+      resultStatus: 1
+      duration: 0.0178912
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.NoSurfaceSelected_PreviewTrimmingIsNotCalled]'
+      name: NoSurfaceSelected_PreviewTrimmingIsNotCalled
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.NoSurfaceSelected_PreviewTrimmingIsNotCalled
+      resultStatus: 1
+      duration: 0.0170714
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.OnDestroy_MultiplePreviewedSurfacesHaveBeenCachedResetTrimmingIsCalledCorrectly]'
+      name: OnDestroy_MultiplePreviewedSurfacesHaveBeenCachedResetTrimmingIsCalledCorrectly
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.OnDestroy_MultiplePreviewedSurfacesHaveBeenCachedResetTrimmingIsCalledCorrectly
+      resultStatus: 1
+      duration: 0.0186307
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.OnDestroy_PreviewedSurfaceHasBeenCachedResetTrimmingIsCalledCorrectly]'
+      name: OnDestroy_PreviewedSurfaceHasBeenCachedResetTrimmingIsCalledCorrectly
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.OnDestroy_PreviewedSurfaceHasBeenCachedResetTrimmingIsCalledCorrectly
+      resultStatus: 1
+      duration: 0.0168733
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.OnDestroy_TrimmingIsResetExactlyOncePerSurface]'
+      name: OnDestroy_TrimmingIsResetExactlyOncePerSurface
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.OnDestroy_TrimmingIsResetExactlyOncePerSurface
+      resultStatus: 1
+      duration: 0.0191174
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingBehaviourTest.PreviewTrimming_ApplyTrimmingIsNotCalled]'
+      name: PreviewTrimming_ApplyTrimmingIsNotCalled
+      fullName: QuickShape.NurbsTrimmingBehaviourTest.PreviewTrimming_ApplyTrimmingIsNotCalled
+      resultStatus: 1
+      duration: 0.0164446
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingTest][suite]'
+      name: NurbsTrimmingTest
+      fullName: QuickShape.NurbsTrimmingTest
+      resultStatus: 1
+      duration: 0.5149561
+      messages: One or more child tests were ignored
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingTest.ApplyTrimming_CombineTrimCurveServiceIsCalledCorrectly]'
+      name: ApplyTrimming_CombineTrimCurveServiceIsCalledCorrectly
+      fullName: QuickShape.NurbsTrimmingTest.ApplyTrimming_CombineTrimCurveServiceIsCalledCorrectly
+      resultStatus: 1
+      duration: 0.0499114
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingTest.ApplyTrimming_ProjectPointsToColliderUVSpaceServiceIsCalledCorrectly]'
+      name: ApplyTrimming_ProjectPointsToColliderUVSpaceServiceIsCalledCorrectly
+      fullName: QuickShape.NurbsTrimmingTest.ApplyTrimming_ProjectPointsToColliderUVSpaceServiceIsCalledCorrectly
+      resultStatus: 1
+      duration: 0.0484342
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingTest.ApplyTrimmingCallsUserActionManagerCorrectly]'
+      name: ApplyTrimmingCallsUserActionManagerCorrectly
+      fullName: QuickShape.NurbsTrimmingTest.ApplyTrimmingCallsUserActionManagerCorrectly
+      resultStatus: 1
+      duration: 0.0209082
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingTest.EvaluateMarkedUVPointsServiceIsCalledCorrectly]'
+      name: EvaluateMarkedUVPointsServiceIsCalledCorrectly
+      fullName: QuickShape.NurbsTrimmingTest.EvaluateMarkedUVPointsServiceIsCalledCorrectly
+      resultStatus: 1
+      duration: 0.0182194
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingTest.PolygonClippingServiceIsCalledCorrectly]'
+      name: PolygonClippingServiceIsCalledCorrectly
+      fullName: QuickShape.NurbsTrimmingTest.PolygonClippingServiceIsCalledCorrectly
+      resultStatus: 1
+      duration: 0.0168219
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingTest.PreviewTrimming_CombineTrimCurveServiceIsCalledCorrectly]'
+      name: PreviewTrimming_CombineTrimCurveServiceIsCalledCorrectly
+      fullName: QuickShape.NurbsTrimmingTest.PreviewTrimming_CombineTrimCurveServiceIsCalledCorrectly
+      resultStatus: 1
+      duration: 0.0156546
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingTest.PreviewTrimming_GenerateTrimPreviewServiceIsCalledWithCorrectSegments]'
+      name: PreviewTrimming_GenerateTrimPreviewServiceIsCalledWithCorrectSegments
+      fullName: QuickShape.NurbsTrimmingTest.PreviewTrimming_GenerateTrimPreviewServiceIsCalledWithCorrectSegments
+      resultStatus: 1
+      duration: 0.017468
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingTest.PreviewTrimming_GenerateTrimPreviewServiceIsNotCalledIfMeshColliderIsDisabled]'
+      name: PreviewTrimming_GenerateTrimPreviewServiceIsNotCalledIfMeshColliderIsDisabled
+      fullName: QuickShape.NurbsTrimmingTest.PreviewTrimming_GenerateTrimPreviewServiceIsNotCalledIfMeshColliderIsDisabled
+      resultStatus: 1
+      duration: 0.0217187
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingTest.PreviewTrimming_ProjectPointsToColliderUVSpaceServiceIsCalledCorrectly]'
+      name: PreviewTrimming_ProjectPointsToColliderUVSpaceServiceIsCalledCorrectly
+      fullName: QuickShape.NurbsTrimmingTest.PreviewTrimming_ProjectPointsToColliderUVSpaceServiceIsCalledCorrectly
+      resultStatus: 1
+      duration: 0.0158608
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingTest.PreviewTrimmingAppliesNewTrimCurvesOnlyTemporarily]'
+      name: PreviewTrimmingAppliesNewTrimCurvesOnlyTemporarily
+      fullName: QuickShape.NurbsTrimmingTest.PreviewTrimmingAppliesNewTrimCurvesOnlyTemporarily
+      resultStatus: 4
+      duration: 0.0000196
+      messages: temporarily ignored because new preview behaviour needs to be implemented
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 1
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingTest.PreviewTrimmingReturnsFalseIfNoProjectionIsValid]'
+      name: PreviewTrimmingReturnsFalseIfNoProjectionIsValid
+      fullName: QuickShape.NurbsTrimmingTest.PreviewTrimmingReturnsFalseIfNoProjectionIsValid
+      resultStatus: 1
+      duration: 0.0175254
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingTest.PreviewTrimmingReturnsTrueIfAtLeastOneProjectionIsValid]'
+      name: PreviewTrimmingReturnsTrueIfAtLeastOneProjectionIsValid
+      fullName: QuickShape.NurbsTrimmingTest.PreviewTrimmingReturnsTrueIfAtLeastOneProjectionIsValid
+      resultStatus: 1
+      duration: 0.0164542
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingTest.ResetTrimmingCallsRebuildTrimCurveMask]'
+      name: ResetTrimmingCallsRebuildTrimCurveMask
+      fullName: QuickShape.NurbsTrimmingTest.ResetTrimmingCallsRebuildTrimCurveMask
+      resultStatus: 1
+      duration: 0.0160518
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingTest.ResetTrimmingDoesNotThrowAnExceptionIfSurfaceIsNull]'
+      name: ResetTrimmingDoesNotThrowAnExceptionIfSurfaceIsNull
+      fullName: QuickShape.NurbsTrimmingTest.ResetTrimmingDoesNotThrowAnExceptionIfSurfaceIsNull
+      resultStatus: 1
+      duration: 0.0190289
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.NurbsTrimmingTest.TrimPreviewServiceIsCalledForEachPreviewTrimmingCall]'
+      name: TrimPreviewServiceIsCalledForEachPreviewTrimmingCall
+      fullName: QuickShape.NurbsTrimmingTest.TrimPreviewServiceIsCalledForEachPreviewTrimmingCall
+      resultStatus: 1
+      duration: 0.0236991
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.OrthographicCameraTest][suite]'
+      name: OrthographicCameraTest
+      fullName: QuickShape.OrthographicCameraTest
+      resultStatus: 1
+      duration: 0.1462946
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.OrthographicCameraTest.CameraIsFacingCorrectDirectionForTopView]'
+      name: CameraIsFacingCorrectDirectionForTopView
+      fullName: QuickShape.OrthographicCameraTest.CameraIsFacingCorrectDirectionForTopView
+      resultStatus: 1
+      duration: 0.007081
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.OrthographicCameraTest.CameraUpVectorIsCorrectForSideView]'
+      name: CameraUpVectorIsCorrectForSideView
+      fullName: QuickShape.OrthographicCameraTest.CameraUpVectorIsCorrectForSideView
+      resultStatus: 1
+      duration: 0.0067413
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.OrthographicCameraTest.NoBoundsLeadToCorrectSize]'
+      name: NoBoundsLeadToCorrectSize
+      fullName: QuickShape.OrthographicCameraTest.NoBoundsLeadToCorrectSize
+      resultStatus: 1
+      duration: 0.0061282
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.OrthographicCameraTest.RectBoundsLeadToCorrectSizeFromFront]'
+      name: RectBoundsLeadToCorrectSizeFromFront
+      fullName: QuickShape.OrthographicCameraTest.RectBoundsLeadToCorrectSizeFromFront
+      resultStatus: 1
+      duration: 0.0066336
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.OrthographicCameraTest.RectBoundsLeadToCorrectSizeFromRight]'
+      name: RectBoundsLeadToCorrectSizeFromRight
+      fullName: QuickShape.OrthographicCameraTest.RectBoundsLeadToCorrectSizeFromRight
+      resultStatus: 1
+      duration: 0.0067381
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.OrthographicCameraTest.RectBoundsLeadToCorrectSizeFromTop]'
+      name: RectBoundsLeadToCorrectSizeFromTop
+      fullName: QuickShape.OrthographicCameraTest.RectBoundsLeadToCorrectSizeFromTop
+      resultStatus: 1
+      duration: 0.0060876
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.OrthographicCameraTest.SquareBoundsLeadToCorrectSize]'
+      name: SquareBoundsLeadToCorrectSize
+      fullName: QuickShape.OrthographicCameraTest.SquareBoundsLeadToCorrectSize
+      resultStatus: 1
+      duration: 0.0061895
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.OrthographicToolActionTest][suite]'
+      name: OrthographicToolActionTest
+      fullName: QuickShape.OrthographicToolActionTest
+      resultStatus: 1
+      duration: 0.1202453
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.OrthographicToolActionTest.VrUiElementIsClickedIfItIsOnTheRightLayerAndOneControllerIsCloseEnough]'
+      name: VrUiElementIsClickedIfItIsOnTheRightLayerAndOneControllerIsCloseEnough
+      fullName: QuickShape.OrthographicToolActionTest.VrUiElementIsClickedIfItIsOnTheRightLayerAndOneControllerIsCloseEnough
+      resultStatus: 1
+      duration: 0.0161148
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.OrthographicToolActionTest.VrUiElementIsNotClickedIfButtonsUiElementIsNull]'
+      name: VrUiElementIsNotClickedIfButtonsUiElementIsNull
+      fullName: QuickShape.OrthographicToolActionTest.VrUiElementIsNotClickedIfButtonsUiElementIsNull
+      resultStatus: 1
+      duration: 0.0113972
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.OrthographicToolActionTest.VrUiElementIsNotClickedIfItIsOnAWrongLayerAndOneControllerIsCloseEnough]'
+      name: VrUiElementIsNotClickedIfItIsOnAWrongLayerAndOneControllerIsCloseEnough
+      fullName: QuickShape.OrthographicToolActionTest.VrUiElementIsNotClickedIfItIsOnAWrongLayerAndOneControllerIsCloseEnough
+      resultStatus: 1
+      duration: 0.0133675
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.OrthographicToolActionTest.VrUiElementIsNotClickedIfItIsOnTheRightLayerAndOneControllerIsNotCloseEnough]'
+      name: VrUiElementIsNotClickedIfItIsOnTheRightLayerAndOneControllerIsNotCloseEnough
+      fullName: QuickShape.OrthographicToolActionTest.VrUiElementIsNotClickedIfItIsOnTheRightLayerAndOneControllerIsNotCloseEnough
+      resultStatus: 1
+      duration: 0.0125651
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ProjectPointsToColliderServiceTest][suite]'
+      name: ProjectPointsToColliderServiceTest
+      fullName: QuickShape.ProjectPointsToColliderServiceTest
+      resultStatus: 1
+      duration: 0.6054817
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ProjectPointsToColliderServiceTest.ClosedSegmentIsAlwaysValidEvenIfFirstOrLast]'
+      name: ClosedSegmentIsAlwaysValidEvenIfFirstOrLast
+      fullName: QuickShape.ProjectPointsToColliderServiceTest.ClosedSegmentIsAlwaysValidEvenIfFirstOrLast
+      resultStatus: 1
+      duration: 0.0158432
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ProjectPointsToColliderServiceTest.ExceptionIsThrownWhenNoMeshColliderExists]'
+      name: ExceptionIsThrownWhenNoMeshColliderExists
+      fullName: QuickShape.ProjectPointsToColliderServiceTest.ExceptionIsThrownWhenNoMeshColliderExists
+      resultStatus: 1
+      duration: 0.0150103
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ProjectPointsToColliderServiceTest.FirstAndLastProjectedSegmentsAreClassifiedAsInvalidForTrimming]'
+      name: FirstAndLastProjectedSegmentsAreClassifiedAsInvalidForTrimming
+      fullName: QuickShape.ProjectPointsToColliderServiceTest.FirstAndLastProjectedSegmentsAreClassifiedAsInvalidForTrimming
+      resultStatus: 1
+      duration: 0.0143582
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ProjectPointsToColliderServiceTest.LocalToWorldMatrixIsUsedCorrectly]'
+      name: LocalToWorldMatrixIsUsedCorrectly
+      fullName: QuickShape.ProjectPointsToColliderServiceTest.LocalToWorldMatrixIsUsedCorrectly
+      resultStatus: 1
+      duration: 0.0174385
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ProjectPointsToColliderServiceTest.MultipleSegmentsAreCreated]'
+      name: MultipleSegmentsAreCreated
+      fullName: QuickShape.ProjectPointsToColliderServiceTest.MultipleSegmentsAreCreated
+      resultStatus: 1
+      duration: 0.0157601
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ProjectPointsToColliderServiceTest.NewPointsAreCreatedInProjectedSpace]'
+      name: NewPointsAreCreatedInProjectedSpace
+      fullName: QuickShape.ProjectPointsToColliderServiceTest.NewPointsAreCreatedInProjectedSpace
+      resultStatus: 1
+      duration: 0.0162701
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ProjectPointsToColliderServiceTest.NewPointsAreCreatedInUVSpace]'
+      name: NewPointsAreCreatedInUVSpace
+      fullName: QuickShape.ProjectPointsToColliderServiceTest.NewPointsAreCreatedInUVSpace
+      resultStatus: 1
+      duration: 0.0144633
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ProjectPointsToColliderServiceTest.NewPointsAreOnGivenLine]'
+      name: NewPointsAreOnGivenLine
+      fullName: QuickShape.ProjectPointsToColliderServiceTest.NewPointsAreOnGivenLine
+      resultStatus: 1
+      duration: 0.0153762
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ProjectPointsToColliderServiceTest.NewPointsCloseToTheBordersAreCreated]'
+      name: NewPointsCloseToTheBordersAreCreated
+      fullName: QuickShape.ProjectPointsToColliderServiceTest.NewPointsCloseToTheBordersAreCreated
+      resultStatus: 1
+      duration: 0.0197934
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ProjectPointsToColliderServiceTest.NoHitsProduceNoValidSegments]'
+      name: NoHitsProduceNoValidSegments
+      fullName: QuickShape.ProjectPointsToColliderServiceTest.NoHitsProduceNoValidSegments
+      resultStatus: 1
+      duration: 0.0157192
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ProjectPointsToColliderServiceTest.PointsOnBordersAreIncluded]'
+      name: PointsOnBordersAreIncluded
+      fullName: QuickShape.ProjectPointsToColliderServiceTest.PointsOnBordersAreIncluded
+      resultStatus: 1
+      duration: 0.0143135
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ProjectPointsToColliderServiceTest.ProjectionOnSurfaceWithNegativeXScaleWorksCorrectly]'
+      name: ProjectionOnSurfaceWithNegativeXScaleWorksCorrectly
+      fullName: QuickShape.ProjectPointsToColliderServiceTest.ProjectionOnSurfaceWithNegativeXScaleWorksCorrectly
+      resultStatus: 1
+      duration: 0.0155522
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ProjectPointsToColliderServiceTest.ProjectionOnSurfaceWithNegativeYScaleWorksCorrectly]'
+      name: ProjectionOnSurfaceWithNegativeYScaleWorksCorrectly
+      fullName: QuickShape.ProjectPointsToColliderServiceTest.ProjectionOnSurfaceWithNegativeYScaleWorksCorrectly
+      resultStatus: 1
+      duration: 0.0153351
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ProjectPointsToColliderServiceTest.ProjectionOnSurfaceWithNegativeZScaleWorksCorrectly]'
+      name: ProjectionOnSurfaceWithNegativeZScaleWorksCorrectly
+      fullName: QuickShape.ProjectPointsToColliderServiceTest.ProjectionOnSurfaceWithNegativeZScaleWorksCorrectly
+      resultStatus: 1
+      duration: 0.0142367
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ProjectPointsToColliderServiceTest.SegmentsContainAllOriginPointsIfTheyAreAllValid]'
+      name: SegmentsContainAllOriginPointsIfTheyAreAllValid
+      fullName: QuickShape.ProjectPointsToColliderServiceTest.SegmentsContainAllOriginPointsIfTheyAreAllValid
+      resultStatus: 1
+      duration: 0.0164954
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ProjectPointsToColliderServiceTest.SegmentsContainsAllOriginPoints]'
+      name: SegmentsContainsAllOriginPoints
+      fullName: QuickShape.ProjectPointsToColliderServiceTest.SegmentsContainsAllOriginPoints
+      resultStatus: 1
+      duration: 0.0161821
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ProjectPointsToColliderServiceTest.SegmentWithInvalidProjectionsIsAlsoInvalidForTrimming]'
+      name: SegmentWithInvalidProjectionsIsAlsoInvalidForTrimming
+      fullName: QuickShape.ProjectPointsToColliderServiceTest.SegmentWithInvalidProjectionsIsAlsoInvalidForTrimming
+      resultStatus: 1
+      duration: 0.0147727
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ProjectPointsToColliderServiceTest.TwoPointsAreProjectedToOneSegment]'
+      name: TwoPointsAreProjectedToOneSegment
+      fullName: QuickShape.ProjectPointsToColliderServiceTest.TwoPointsAreProjectedToOneSegment
+      resultStatus: 1
+      duration: 0.0147609
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ProjectPointsToColliderServiceTest.ValidAndInvalidSegmentsAreCreatedCorrectly]'
+      name: ValidAndInvalidSegmentsAreCreatedCorrectly
+      fullName: QuickShape.ProjectPointsToColliderServiceTest.ValidAndInvalidSegmentsAreCreatedCorrectly
+      resultStatus: 1
+      duration: 0.014318
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ProjectPointsToColliderServiceTest.ValidProjectedSegmentThatIsNeitherFirstNorLastIsValidForTrimming]'
+      name: ValidProjectedSegmentThatIsNeitherFirstNorLastIsValidForTrimming
+      fullName: QuickShape.ProjectPointsToColliderServiceTest.ValidProjectedSegmentThatIsNeitherFirstNorLastIsValidForTrimming
+      resultStatus: 1
+      duration: 0.0171383
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ProjectPointsToColliderServiceTest.ValidProjectedSegmentWithOnePointIsInvalidForTrimming]'
+      name: ValidProjectedSegmentWithOnePointIsInvalidForTrimming
+      fullName: QuickShape.ProjectPointsToColliderServiceTest.ValidProjectedSegmentWithOnePointIsInvalidForTrimming
+      resultStatus: 1
+      duration: 0.0147164
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ProjectPointsToColliderServiceTest.ValidSegmentsContainCorrectNumberOfProjectedPoints]'
+      name: ValidSegmentsContainCorrectNumberOfProjectedPoints
+      fullName: QuickShape.ProjectPointsToColliderServiceTest.ValidSegmentsContainCorrectNumberOfProjectedPoints
+      resultStatus: 1
+      duration: 0.0148695
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.SceneNurbsSurfaceTest][suite]'
+      name: SceneNurbsSurfaceTest
+      fullName: QuickShape.SceneNurbsSurfaceTest
+      resultStatus: 1
+      duration: 0.0868396
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.SceneNurbsSurfaceTest.TestTrimCurveChanged]'
+      name: TestTrimCurveChanged
+      fullName: QuickShape.SceneNurbsSurfaceTest.TestTrimCurveChanged
+      resultStatus: 1
+      duration: 0.0150923
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.SceneNurbsSurfaceTest.TestTrimmingDidNotChanged]'
+      name: TestTrimmingDidNotChanged
+      fullName: QuickShape.SceneNurbsSurfaceTest.TestTrimmingDidNotChanged
+      resultStatus: 1
+      duration: 0.014949
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.SceneNurbsSurfaceTest.TestTrimTextureChanged]'
+      name: TestTrimTextureChanged
+      fullName: QuickShape.SceneNurbsSurfaceTest.TestTrimTextureChanged
+      resultStatus: 1
+      duration: 0.0161301
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.SceneTransformationTest][suite]'
+      name: SceneTransformationTest
+      fullName: QuickShape.SceneTransformationTest
+      resultStatus: 1
+      duration: 0.4429919
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.SceneTransformationTest.BoundsShouldBeCombinedIfMultipleObjectsAreGiven]'
+      name: BoundsShouldBeCombinedIfMultipleObjectsAreGiven
+      fullName: QuickShape.SceneTransformationTest.BoundsShouldBeCombinedIfMultipleObjectsAreGiven
+      resultStatus: 1
+      duration: 0.0247901
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.SceneTransformationTest.InactiveObjectsShouldNotBeIncludedInTheCalculation]'
+      name: InactiveObjectsShouldNotBeIncludedInTheCalculation
+      fullName: QuickShape.SceneTransformationTest.InactiveObjectsShouldNotBeIncludedInTheCalculation
+      resultStatus: 1
+      duration: 0.0178633
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.SceneTransformationTest.ObjectsWithoutRendererShouldNotBeIncludedInTheCalculation]'
+      name: ObjectsWithoutRendererShouldNotBeIncludedInTheCalculation
+      fullName: QuickShape.SceneTransformationTest.ObjectsWithoutRendererShouldNotBeIncludedInTheCalculation
+      resultStatus: 1
+      duration: 0.0194559
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.SceneTransformationTest.ShouldHaveCorrectBoundsForMirroredObjectsInWorldSpaceWhenRotated]'
+      name: ShouldHaveCorrectBoundsForMirroredObjectsInWorldSpaceWhenRotated
+      fullName: QuickShape.SceneTransformationTest.ShouldHaveCorrectBoundsForMirroredObjectsInWorldSpaceWhenRotated
+      resultStatus: 1
+      duration: 0.0190402
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.SceneTransformationTest.ShouldHaveCorrectBoundsForMirroredObjectsInWorldSpaceWhenScaled]'
+      name: ShouldHaveCorrectBoundsForMirroredObjectsInWorldSpaceWhenScaled
+      fullName: QuickShape.SceneTransformationTest.ShouldHaveCorrectBoundsForMirroredObjectsInWorldSpaceWhenScaled
+      resultStatus: 1
+      duration: 0.0184061
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.SceneTransformationTest.ShouldHaveCorrectTheBoundsMirroredObjects]'
+      name: ShouldHaveCorrectTheBoundsMirroredObjects
+      fullName: QuickShape.SceneTransformationTest.ShouldHaveCorrectTheBoundsMirroredObjects
+      resultStatus: 1
+      duration: 0.0187234
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.SceneTransformationTest.ShouldHaveTheBoundsIfMeshBoundsAreOffCenter]'
+      name: ShouldHaveTheBoundsIfMeshBoundsAreOffCenter
+      fullName: QuickShape.SceneTransformationTest.ShouldHaveTheBoundsIfMeshBoundsAreOffCenter
+      resultStatus: 1
+      duration: 0.0187982
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.SceneTransformationTest.ShouldHaveTheBoundsInWorldspaceIfScaled]'
+      name: ShouldHaveTheBoundsInWorldspaceIfScaled
+      fullName: QuickShape.SceneTransformationTest.ShouldHaveTheBoundsInWorldspaceIfScaled
+      resultStatus: 1
+      duration: 0.0179765
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.SceneTransformationTest.ShouldHaveTheBoundsOfTheOnlyGivenObject]'
+      name: ShouldHaveTheBoundsOfTheOnlyGivenObject
+      fullName: QuickShape.SceneTransformationTest.ShouldHaveTheBoundsOfTheOnlyGivenObject
+      resultStatus: 1
+      duration: 0.0188625
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.SceneTransformationTest.ShouldHaveTheBoundsRelativeToSceneWhenRotated]'
+      name: ShouldHaveTheBoundsRelativeToSceneWhenRotated
+      fullName: QuickShape.SceneTransformationTest.ShouldHaveTheBoundsRelativeToSceneWhenRotated
+      resultStatus: 1
+      duration: 0.0206508
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.SceneTransformationTest.ShouldHaveTheBoundsRelativeToSceneWhenScaled]'
+      name: ShouldHaveTheBoundsRelativeToSceneWhenScaled
+      fullName: QuickShape.SceneTransformationTest.ShouldHaveTheBoundsRelativeToSceneWhenScaled
+      resultStatus: 1
+      duration: 0.0196736
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.SceneTransformationTest.ShouldHaveTheBoundsRelativeToSceneWhenSceneIsTranslated]'
+      name: ShouldHaveTheBoundsRelativeToSceneWhenSceneIsTranslated
+      fullName: QuickShape.SceneTransformationTest.ShouldHaveTheBoundsRelativeToSceneWhenSceneIsTranslated
+      resultStatus: 1
+      duration: 0.0180018
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.SceneTransformationTest.ShouldHaveTheBoundsRelativeToSceneWhenSelfIsTranslated]'
+      name: ShouldHaveTheBoundsRelativeToSceneWhenSelfIsTranslated
+      fullName: QuickShape.SceneTransformationTest.ShouldHaveTheBoundsRelativeToSceneWhenSelfIsTranslated
+      resultStatus: 1
+      duration: 0.0180941
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.SceneTransformationTest.ShouldHaveZeroBoundsForNoGivenObject]'
+      name: ShouldHaveZeroBoundsForNoGivenObject
+      fullName: QuickShape.SceneTransformationTest.ShouldHaveZeroBoundsForNoGivenObject
+      resultStatus: 1
+      duration: 0.0189054
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.SetUpLoadedSketchServiceTest][suite]'
+      name: SetUpLoadedSketchServiceTest
+      fullName: QuickShape.SetUpLoadedSketchServiceTest
+      resultStatus: 1
+      duration: 0.1959521
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.SetUpLoadedSketchServiceTest.PositionIsSetToGroundOffsetPlusHalfTheHeightOfTheQuad][suite]'
+      name: PositionIsSetToGroundOffsetPlusHalfTheHeightOfTheQuad
+      fullName: QuickShape.SetUpLoadedSketchServiceTest.PositionIsSetToGroundOffsetPlusHalfTheHeightOfTheQuad
+      resultStatus: 1
+      duration: 0.0482084
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.SetUpLoadedSketchServiceTest.PositionIsSetToGroundOffsetPlusHalfTheHeightOfTheQuad(10)]'
+      name: PositionIsSetToGroundOffsetPlusHalfTheHeightOfTheQuad(10)
+      fullName: QuickShape.SetUpLoadedSketchServiceTest.PositionIsSetToGroundOffsetPlusHalfTheHeightOfTheQuad(10)
+      resultStatus: 1
+      duration: 0.0053063
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.SetUpLoadedSketchServiceTest.PositionIsSetToGroundOffsetPlusHalfTheHeightOfTheQuad(20)]'
+      name: PositionIsSetToGroundOffsetPlusHalfTheHeightOfTheQuad(20)
+      fullName: QuickShape.SetUpLoadedSketchServiceTest.PositionIsSetToGroundOffsetPlusHalfTheHeightOfTheQuad(20)
+      resultStatus: 1
+      duration: 0.0049612
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.SetUpLoadedSketchServiceTest.PositionIsSetToGroundOffsetPlusHalfTheHeightOfTheQuad(30)]'
+      name: PositionIsSetToGroundOffsetPlusHalfTheHeightOfTheQuad(30)
+      fullName: QuickShape.SetUpLoadedSketchServiceTest.PositionIsSetToGroundOffsetPlusHalfTheHeightOfTheQuad(30)
+      resultStatus: 1
+      duration: 0.0048942
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.SetUpLoadedSketchServiceTest.QuadHasSameSizeAsImage]'
+      name: QuadHasSameSizeAsImage
+      fullName: QuickShape.SetUpLoadedSketchServiceTest.QuadHasSameSizeAsImage
+      resultStatus: 1
+      duration: 0.0057564
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.SetUpLoadedSketchServiceTest.QuadRotationIsAppliedCorrectlyForX]'
+      name: QuadRotationIsAppliedCorrectlyForX
+      fullName: QuickShape.SetUpLoadedSketchServiceTest.QuadRotationIsAppliedCorrectlyForX
+      resultStatus: 1
+      duration: 0.005058
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.SetUpLoadedSketchServiceTest.QuadRotationIsAppliedCorrectlyForY]'
+      name: QuadRotationIsAppliedCorrectlyForY
+      fullName: QuickShape.SetUpLoadedSketchServiceTest.QuadRotationIsAppliedCorrectlyForY
+      resultStatus: 1
+      duration: 0.0053392
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.SetUpLoadedSketchServiceTest.QuadRotationIsAppliedCorrectlyForZ]'
+      name: QuadRotationIsAppliedCorrectlyForZ
+      fullName: QuickShape.SetUpLoadedSketchServiceTest.QuadRotationIsAppliedCorrectlyForZ
+      resultStatus: 1
+      duration: 0.0053768
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.SetUpLoadedSketchServiceTest.QuadRotationIsNotChangedOnDefaultAction]'
+      name: QuadRotationIsNotChangedOnDefaultAction
+      fullName: QuickShape.SetUpLoadedSketchServiceTest.QuadRotationIsNotChangedOnDefaultAction
+      resultStatus: 1
+      duration: 0.0053025
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.SetUpLoadedSketchServiceTest.QuadsFacingUpwardsAreSetToDefaultHeight]'
+      name: QuadsFacingUpwardsAreSetToDefaultHeight
+      fullName: QuickShape.SetUpLoadedSketchServiceTest.QuadsFacingUpwardsAreSetToDefaultHeight
+      resultStatus: 1
+      duration: 0.0050644
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.SetUpLoadedSketchServiceTest.QuadsNotFacingUpwardsAreSetToSizeDependendHeight]'
+      name: QuadsNotFacingUpwardsAreSetToSizeDependendHeight
+      fullName: QuickShape.SetUpLoadedSketchServiceTest.QuadsNotFacingUpwardsAreSetToSizeDependendHeight
+      resultStatus: 1
+      duration: 0.0056873
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ToolActionTurntableUIInteractionTest][suite]'
+      name: ToolActionTurntableUIInteractionTest
+      fullName: QuickShape.ToolActionTurntableUIInteractionTest
+      resultStatus: 1
+      duration: 0.296801
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ToolActionTurntableUIInteractionTest.BeginReturnsBlockIfNearestColliderIsFound]'
+      name: BeginReturnsBlockIfNearestColliderIsFound
+      fullName: QuickShape.ToolActionTurntableUIInteractionTest.BeginReturnsBlockIfNearestColliderIsFound
+      resultStatus: 1
+      duration: 0.0234493
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ToolActionTurntableUIInteractionTest.BeginReturnsInactiveIfNoNearestColliderIsFound]'
+      name: BeginReturnsInactiveIfNoNearestColliderIsFound
+      fullName: QuickShape.ToolActionTurntableUIInteractionTest.BeginReturnsInactiveIfNoNearestColliderIsFound
+      resultStatus: 1
+      duration: 0.0158011
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ToolActionTurntableUIInteractionTest.CreateUserActionReturnsNull]'
+      name: CreateUserActionReturnsNull
+      fullName: QuickShape.ToolActionTurntableUIInteractionTest.CreateUserActionReturnsNull
+      resultStatus: 1
+      duration: 0.0210933
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ToolActionTurntableUIInteractionTest.DoingReturnsFinished]'
+      name: DoingReturnsFinished
+      fullName: QuickShape.ToolActionTurntableUIInteractionTest.DoingReturnsFinished
+      resultStatus: 1
+      duration: 0.0160488
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ToolActionTurntableUIInteractionTest.HapticPulseStartsAgainAfterColliderReentered]'
+      name: HapticPulseStartsAgainAfterColliderReentered
+      fullName: QuickShape.ToolActionTurntableUIInteractionTest.HapticPulseStartsAgainAfterColliderReentered
+      resultStatus: 1
+      duration: 0.0178087
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ToolActionTurntableUIInteractionTest.HapticPulseStartsOnColliderFound]'
+      name: HapticPulseStartsOnColliderFound
+      fullName: QuickShape.ToolActionTurntableUIInteractionTest.HapticPulseStartsOnColliderFound
+      resultStatus: 1
+      duration: 0.015573
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ToolActionTurntableUIInteractionTest.HapticPulseStartsOnColliderFoundOnlyOnce]'
+      name: HapticPulseStartsOnColliderFoundOnlyOnce
+      fullName: QuickShape.ToolActionTurntableUIInteractionTest.HapticPulseStartsOnColliderFoundOnlyOnce
+      resultStatus: 1
+      duration: 0.0164751
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ToolActionTurntableUIInteractionTest.MenuIsNotOpenedIfColliderIsNotOnTheUiLayer]'
+      name: MenuIsNotOpenedIfColliderIsNotOnTheUiLayer
+      fullName: QuickShape.ToolActionTurntableUIInteractionTest.MenuIsNotOpenedIfColliderIsNotOnTheUiLayer
+      resultStatus: 1
+      duration: 0.0170853
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ToolActionTurntableUIInteractionTest.MenuIsNotOpenedIfColliderIsNoUiElement]'
+      name: MenuIsNotOpenedIfColliderIsNoUiElement
+      fullName: QuickShape.ToolActionTurntableUIInteractionTest.MenuIsNotOpenedIfColliderIsNoUiElement
+      resultStatus: 1
+      duration: 0.016878
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.ToolActionTurntableUIInteractionTest.MenuIsOpenedIfColliderIsUiElement]'
+      name: MenuIsOpenedIfColliderIsUiElement
+      fullName: QuickShape.ToolActionTurntableUIInteractionTest.MenuIsOpenedIfColliderIsUiElement
+      resultStatus: 1
+      duration: 0.0167477
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.TurntableBehaviourTest][suite]'
+      name: TurntableBehaviourTest
+      fullName: QuickShape.TurntableBehaviourTest
+      resultStatus: 1
+      duration: 0.1450303
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.TurntableBehaviourTest.ChangeRotationCallsChangeRotationCorrectly]'
+      name: ChangeRotationCallsChangeRotationCorrectly
+      fullName: QuickShape.TurntableBehaviourTest.ChangeRotationCallsChangeRotationCorrectly
+      resultStatus: 1
+      duration: 0.0181882
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.TurntableBehaviourTest.PauseCallsPauseCorrectly]'
+      name: PauseCallsPauseCorrectly
+      fullName: QuickShape.TurntableBehaviourTest.PauseCallsPauseCorrectly
+      resultStatus: 1
+      duration: 0.0173066
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.TurntableBehaviourTest.ResetTurntableCallsResetTurntableCorrectly]'
+      name: ResetTurntableCallsResetTurntableCorrectly
+      fullName: QuickShape.TurntableBehaviourTest.ResetTurntableCallsResetTurntableCorrectly
+      resultStatus: 1
+      duration: 0.0148877
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.TurntableBehaviourTest.TurntableIsResetOnStart]'
+      name: TurntableIsResetOnStart
+      fullName: QuickShape.TurntableBehaviourTest.TurntableIsResetOnStart
+      resultStatus: 1
+      duration: 0.0164641
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.TurntableBehaviourTest.UpdateCallsUpdate]'
+      name: UpdateCallsUpdate
+      fullName: QuickShape.TurntableBehaviourTest.UpdateCallsUpdate
+      resultStatus: 1
+      duration: 0.0155734
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.TurntableTest][suite]'
+      name: TurntableTest
+      fullName: QuickShape.TurntableTest
+      resultStatus: 1
+      duration: 0.4693468
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.TurntableTest.AfterRotationChangedSceneTransformationIsCalledWithTheCorrectValue]'
+      name: AfterRotationChangedSceneTransformationIsCalledWithTheCorrectValue
+      fullName: QuickShape.TurntableTest.AfterRotationChangedSceneTransformationIsCalledWithTheCorrectValue
+      resultStatus: 1
+      duration: 0.0166353
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.TurntableTest.AfterRotationChangedToZeroSceneTransformationIsNotCalled]'
+      name: AfterRotationChangedToZeroSceneTransformationIsNotCalled
+      fullName: QuickShape.TurntableTest.AfterRotationChangedToZeroSceneTransformationIsNotCalled
+      resultStatus: 1
+      duration: 0.01704
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.TurntableTest.EulerAngleIsResetOnReset]'
+      name: EulerAngleIsResetOnReset
+      fullName: QuickShape.TurntableTest.EulerAngleIsResetOnReset
+      resultStatus: 1
+      duration: 0.0164284
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.TurntableTest.LerpingTimeIsResetAtARoomGrab]'
+      name: LerpingTimeIsResetAtARoomGrab
+      fullName: QuickShape.TurntableTest.LerpingTimeIsResetAtARoomGrab
+      resultStatus: 1
+      duration: 0.0181539
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.TurntableTest.PivotIsOnlyCalculatedOnce]'
+      name: PivotIsOnlyCalculatedOnce
+      fullName: QuickShape.TurntableTest.PivotIsOnlyCalculatedOnce
+      resultStatus: 1
+      duration: 0.0181988
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.TurntableTest.PivotIsResetOnReset]'
+      name: PivotIsResetOnReset
+      fullName: QuickShape.TurntableTest.PivotIsResetOnReset
+      resultStatus: 1
+      duration: 0.0171091
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.TurntableTest.PivotIsUsedCorrectly]'
+      name: PivotIsUsedCorrectly
+      fullName: QuickShape.TurntableTest.PivotIsUsedCorrectly
+      resultStatus: 1
+      duration: 0.017456
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.TurntableTest.RotationOfLastFramesIsAddedToCurrentRotation]'
+      name: RotationOfLastFramesIsAddedToCurrentRotation
+      fullName: QuickShape.TurntableTest.RotationOfLastFramesIsAddedToCurrentRotation
+      resultStatus: 1
+      duration: 0.0197823
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.TurntableTest.SceneTransformIsNotChangedOnPause]'
+      name: SceneTransformIsNotChangedOnPause
+      fullName: QuickShape.TurntableTest.SceneTransformIsNotChangedOnPause
+      resultStatus: 1
+      duration: 0.0152683
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.TurntableTest.SpeedIsResetOnReset]'
+      name: SpeedIsResetOnReset
+      fullName: QuickShape.TurntableTest.SpeedIsResetOnReset
+      resultStatus: 1
+      duration: 0.0158498
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.TurntableTest.TheSceneTransformationIsNotResetOnRotationChangedWithoutCallingPause]'
+      name: TheSceneTransformationIsNotResetOnRotationChangedWithoutCallingPause
+      fullName: QuickShape.TurntableTest.TheSceneTransformationIsNotResetOnRotationChangedWithoutCallingPause
+      resultStatus: 1
+      duration: 0.0154361
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.TurntableTest.TheSceneTransformationIsNotResetOnTurntablePaused]'
+      name: TheSceneTransformationIsNotResetOnTurntablePaused
+      fullName: QuickShape.TurntableTest.TheSceneTransformationIsNotResetOnTurntablePaused
+      resultStatus: 1
+      duration: 0.0151501
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.TurntableTest.TheSceneTransformationIsResetOnReset]'
+      name: TheSceneTransformationIsResetOnReset
+      fullName: QuickShape.TurntableTest.TheSceneTransformationIsResetOnReset
+      resultStatus: 1
+      duration: 0.0160986
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.TurntableTest.TurntableLerpsToPreviousPositionAfterRoomGrab]'
+      name: TurntableLerpsToPreviousPositionAfterRoomGrab
+      fullName: QuickShape.TurntableTest.TurntableLerpsToPreviousPositionAfterRoomGrab
+      resultStatus: 1
+      duration: 0.0191092
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.TurntableTest.TurntableRotationStopAtARoomGrab]'
+      name: TurntableRotationStopAtARoomGrab
+      fullName: QuickShape.TurntableTest.TurntableRotationStopAtARoomGrab
+      resultStatus: 1
+      duration: 0.0161742
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.TurntableTest.WhenMultipleRoomGrabsHappenTheTurntableLerpsToThePositionBeforeTheFirstRoomgrab]'
+      name: WhenMultipleRoomGrabsHappenTheTurntableLerpsToThePositionBeforeTheFirstRoomgrab
+      fullName: QuickShape.TurntableTest.WhenMultipleRoomGrabsHappenTheTurntableLerpsToThePositionBeforeTheFirstRoomgrab
+      resultStatus: 1
+      duration: 0.0169278
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.UiInteractionServiceTest][suite]'
+      name: UiInteractionServiceTest
+      fullName: QuickShape.UiInteractionServiceTest
+      resultStatus: 1
+      duration: 0.2319044
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.UiInteractionServiceTest.ColliderIsUiElementReturnsFalseIfLayerIsNotVrUiElement]'
+      name: ColliderIsUiElementReturnsFalseIfLayerIsNotVrUiElement
+      fullName: QuickShape.UiInteractionServiceTest.ColliderIsUiElementReturnsFalseIfLayerIsNotVrUiElement
+      resultStatus: 1
+      duration: 0.0172711
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.UiInteractionServiceTest.ColliderIsUiElementReturnsTrueIfLayerIsVrUiElement]'
+      name: ColliderIsUiElementReturnsTrueIfLayerIsVrUiElement
+      fullName: QuickShape.UiInteractionServiceTest.ColliderIsUiElementReturnsTrueIfLayerIsVrUiElement
+      resultStatus: 1
+      duration: 0.0153793
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.UiInteractionServiceTest.UiElementIsHighlightedIfInputHovered]'
+      name: UiElementIsHighlightedIfInputHovered
+      fullName: QuickShape.UiInteractionServiceTest.UiElementIsHighlightedIfInputHovered
+      resultStatus: 1
+      duration: 0.0184374
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.UiInteractionServiceTest.UiElementIsNotHighlightedIfButtonClicked]'
+      name: UiElementIsNotHighlightedIfButtonClicked
+      fullName: QuickShape.UiInteractionServiceTest.UiElementIsNotHighlightedIfButtonClicked
+      resultStatus: 1
+      duration: 0.0172329
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.UiInteractionServiceTest.UiElementIsNotHighlightedIfButtonIsNotClickedAndPressedIsGreaterZero]'
+      name: UiElementIsNotHighlightedIfButtonIsNotClickedAndPressedIsGreaterZero
+      fullName: QuickShape.UiInteractionServiceTest.UiElementIsNotHighlightedIfButtonIsNotClickedAndPressedIsGreaterZero
+      resultStatus: 1
+      duration: 0.0150868
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.UiInteractionServiceTest.UiElementIsNotPressedIfInputButtonIsNotClicked]'
+      name: UiElementIsNotPressedIfInputButtonIsNotClicked
+      fullName: QuickShape.UiInteractionServiceTest.UiElementIsNotPressedIfInputButtonIsNotClicked
+      resultStatus: 1
+      duration: 0.0165977
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.UiInteractionServiceTest.UiElementIsNotPressedIfWrongInputButtonIsClicked]'
+      name: UiElementIsNotPressedIfWrongInputButtonIsClicked
+      fullName: QuickShape.UiInteractionServiceTest.UiElementIsNotPressedIfWrongInputButtonIsClicked
+      resultStatus: 1
+      duration: 0.0166491
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.UiInteractionServiceTest.UiElementIsPressedIfInputButtonIsClicked]'
+      name: UiElementIsPressedIfInputButtonIsClicked
+      fullName: QuickShape.UiInteractionServiceTest.UiElementIsPressedIfInputButtonIsClicked
+      resultStatus: 1
+      duration: 0.0165495
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.UserActionTrimSurfaceTest][suite]'
+      name: UserActionTrimSurfaceTest
+      fullName: QuickShape.UserActionTrimSurfaceTest
+      resultStatus: 1
+      duration: 0.1257658
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.UserActionTrimSurfaceTest.DoCallsApplyTrimmingWithCorrectCurves]'
+      name: DoCallsApplyTrimmingWithCorrectCurves
+      fullName: QuickShape.UserActionTrimSurfaceTest.DoCallsApplyTrimmingWithCorrectCurves
+      resultStatus: 1
+      duration: 0.0111253
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.UserActionTrimSurfaceTest.MergeReturnsUserActionThatAffectsAllInvolvedSurfacesOnDo]'
+      name: MergeReturnsUserActionThatAffectsAllInvolvedSurfacesOnDo
+      fullName: QuickShape.UserActionTrimSurfaceTest.MergeReturnsUserActionThatAffectsAllInvolvedSurfacesOnDo
+      resultStatus: 1
+      duration: 0.0127308
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.UserActionTrimSurfaceTest.MergeReturnsUserActionThatAffectsAllInvolvedSurfacesOnUndo]'
+      name: MergeReturnsUserActionThatAffectsAllInvolvedSurfacesOnUndo
+      fullName: QuickShape.UserActionTrimSurfaceTest.MergeReturnsUserActionThatAffectsAllInvolvedSurfacesOnUndo
+      resultStatus: 1
+      duration: 0.0123096
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.UserActionTrimSurfaceTest.UndoCallsApplyTrimmingWithCorrectCurves]'
+      name: UndoCallsApplyTrimmingWithCorrectCurves
+      fullName: QuickShape.UserActionTrimSurfaceTest.UndoCallsApplyTrimmingWithCorrectCurves
+      resultStatus: 1
+      duration: 0.0120469
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.UserActionTrimSurfaceTest.UpdateRedoAndDoSetsTheCorrectCurves]'
+      name: UpdateRedoAndDoSetsTheCorrectCurves
+      fullName: QuickShape.UserActionTrimSurfaceTest.UpdateRedoAndDoSetsTheCorrectCurves
+      resultStatus: 1
+      duration: 0.0116234
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.VisibilityBehaviourTest][suite]'
+      name: VisibilityBehaviourTest
+      fullName: QuickShape.VisibilityBehaviourTest
+      resultStatus: 1
+      duration: 0.0585129
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.VisibilityBehaviourTest.TheGameObjectIsSetActiveIfItIsInactive]'
+      name: TheGameObjectIsSetActiveIfItIsInactive
+      fullName: QuickShape.VisibilityBehaviourTest.TheGameObjectIsSetActiveIfItIsInactive
+      resultStatus: 1
+      duration: 0.0175695
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    - id: '[Assembly-CSharp-Editor][QuickShape.VisibilityBehaviourTest.TheGameObjectIsSetInactiveIfItIsActive]'
+      name: TheGameObjectIsSetInactiveIfItIsActive
+      fullName: QuickShape.VisibilityBehaviourTest.TheGameObjectIsSetInactiveIfItIsActive
+      resultStatus: 1
+      duration: 0.0151731
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories: []
+      parentID: 
+    m_ResultText: 'QuickShape (11.805s)
+
+      ---
+
+      One or more child tests were ignored'
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 2876.4207}
+      m_SelectedIDs: 7452eb18
+      m_LastClickedID: 418075252
+      m_ExpandedIDs: 662dab83f70ec283756e14845888f88be60414902f1ad793777d4796e76b60985213d69bc0de139c7e17169d2786cda20b4e46a50b0159a7275ffbb0ec282cb3621d38b585a6dfbdb8b1f8bf6a46ecc27fba5dc5eaf10cce7cf373ce401b45cf072893cf6317d3d1e05a4ad638d6cadcc4e189e1d92ed8eda6dd3deeaca331efff7ebaf2b16299f6ddef79f88b25f3f9466667fafc4180fb0fc093fbe9beab0943dd6d0d3d492e1253fa2113a0f69a14c8c7ab147452eb18268177196be5b31ab755221c34191a1e37e329255115fa2838eeb929e2dc9e2ab3423a2db33c442f5738f32f71d438326cf7af374f5205382cac1c3ed071873f88f5bd403e8b82412b4a2846511a4f46f175c7477ec9b4490d46fd50d71285515fbbdc52b3dc9754ef2b4f5c3d3bc35efafe555f01b22261f0c8d76e911e8e72ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories: []
+--- !u!114 &21
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: 111653112392082826, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 2
+    y: 707
+    width: 899
+    height: 358
+  m_PersistentViewDataDictionary: {fileID: 0}
