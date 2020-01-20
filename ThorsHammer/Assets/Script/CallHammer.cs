@@ -16,11 +16,39 @@ public class CallHammer : MonoBehaviour
     public float duration= 0.01f;
 
     public float frequency = 200;
-     public float amplitude = 1;
+    public float amplitude = 1;
 
+    // for audio 
+    public AudioClip thunder;
+    private AudioSource audio;
+    void Start()
+    {
+        audio = gameObject.GetComponent<AudioSource>();
 
+    }
     void Update()
     {
+        if (Input.GetKey("space"))
+        {
+            audio.enabled = true;
+            if (!audio.isPlaying)
+            {
+                audio.clip = thunder;
+                audio.Play();
+
+
+            }
+        }
+        else
+        {
+            if (audio.isPlaying)
+            {
+                 audio.Stop();
+
+
+            }
+        }
+
         //Debug.Log("Left Controller Position: " + LeftHand.transform.position);
         //Debug.Log("Right Controller Position: " + RightHand.transform.position);
         //Debug.Log("Hammer Position: " + hammer.transform.position);
