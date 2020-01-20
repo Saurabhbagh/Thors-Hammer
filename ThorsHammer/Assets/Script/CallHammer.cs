@@ -35,7 +35,7 @@ public class CallHammer : MonoBehaviour
             {
                 audio.clip = thunder;
                 audio.Play();
-
+                GameObject.Find("Lightingeffect").transform.GetChild(0).gameObject.SetActive(true);
 
             }
         }
@@ -44,7 +44,7 @@ public class CallHammer : MonoBehaviour
             if (audio.isPlaying)
             {
                  audio.Stop();
-
+                GameObject.Find("Lightingeffect").transform.GetChild(0).gameObject.SetActive(false);
 
             }
         }
