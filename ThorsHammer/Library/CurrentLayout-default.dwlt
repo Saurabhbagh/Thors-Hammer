@@ -71,10 +71,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 1067
-  m_MinSize: {x: 681, y: 344}
-  m_MaxSize: {x: 12006, y: 8044}
+  m_MinSize: {x: 683, y: 344}
+  m_MaxSize: {x: 12008, y: 8044}
   vertical: 0
-  controlID: 103
+  controlID: 121
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -215,10 +215,10 @@ MonoBehaviour:
     y: 0
     width: 1531
     height: 1067
-  m_MinSize: {x: 404, y: 344}
-  m_MaxSize: {x: 8004, y: 8044}
+  m_MinSize: {x: 406, y: 344}
+  m_MaxSize: {x: 8006, y: 8044}
   vertical: 1
-  controlID: 34
+  controlID: 61
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -240,10 +240,10 @@ MonoBehaviour:
     y: 0
     width: 1531
     height: 745
-  m_MinSize: {x: 404, y: 222}
-  m_MaxSize: {x: 8004, y: 4022}
+  m_MinSize: {x: 406, y: 222}
+  m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
-  controlID: 35
+  controlID: 62
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -402,20 +402,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Script
+    - Assets/SteamVR/InteractionSystem/Core/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Script
+  - Assets/SteamVR/InteractionSystem/Core/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Thor Hammer\Thors-Hammer\ThorsHammer
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 1e8a0000
-    m_LastClickedID: 35358
-    m_ExpandedIDs: 00000000fa2e00000e3f000000ca9a3b
+    scrollPos: {x: 0, y: 33}
+    m_SelectedIDs: ee310000
+    m_LastClickedID: 12782
+    m_ExpandedIDs: 0000000020310000083c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -443,7 +443,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000fa2e0000
+    m_ExpandedIDs: 0000000020310000083c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -468,8 +468,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: e640ffff
-    m_LastClickedInstanceID: -48922
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
@@ -568,7 +568,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 3450ffff7050ffff0c5bffff1079ffff5879ffff5a79ffff8479ffff72fbffff
+      m_ExpandedIDs: d0f9ffffdaf9ffffdcf9fffffcf9ffff38fbfffff4ffffff743e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -628,9 +628,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 5.0870523, y: -1.95344, z: 1.9647585}
+    m_Target: {x: -0.46585885, y: -0.83976686, z: -5.8048825}
     speed: 2
-    m_Value: {x: 5.0870523, y: -1.95344, z: 1.9647585}
+    m_Value: {x: -0.46585885, y: -0.83976686, z: -5.8048825}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -659,13 +659,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.1497031, y: 0.5870869, z: -0.11157506, w: 0.7877039}
+    m_Target: {x: 0.045453127, y: -0.89663595, z: 0.09478113, w: 0.43013322}
     speed: 2
-    m_Value: {x: 0.14970247, y: 0.5870845, z: -0.1115746, w: 0.7877006}
+    m_Value: {x: 0.045452673, y: -0.89662695, z: 0.094780184, w: 0.4301289}
   m_Size:
-    m_Target: 7.813074
+    m_Target: 22
     speed: 2
-    m_Value: 7.813074
+    m_Value: 22
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -720,7 +720,7 @@ MonoBehaviour:
   m_VSyncEnabled: 0
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
-  m_Stats: 0
+  m_Stats: 1
   m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_TargetDisplay: 0
   m_ZoomArea:
