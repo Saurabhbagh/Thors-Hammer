@@ -52,8 +52,9 @@ public class CallHammer : MonoBehaviour
         
         if (SteamVR_Actions._default.GrabGrip.GetState(SteamVR_Input_Sources.LeftHand))  // for any state it works !!
         {
-            ComeToMe("left", LeftHand);
+            
             hammer.GetComponent<Rigidbody>().useGravity = false;
+            ComeToMe("left", LeftHand);
            
             //HapticAction.Execute(0, duration, frequency, amplitude, SteamVR_Input_Sources.LeftHand);
 
@@ -69,15 +70,16 @@ public class CallHammer : MonoBehaviour
         if (SteamVR_Actions._default.GrabGrip.GetState(SteamVR_Input_Sources.RightHand))  // for any state it works !!
         {
             //HapticAction.Execute(0, duration, frequency, amplitude, SteamVR_Input_Sources.RightHand);
-            ComeToMe("Right", RightHand);
+           
             hammer.GetComponent<Rigidbody>().useGravity = false;
+            ComeToMe("Right", RightHand);
             //Debug.Log("Controller Position: " + RightHand.transform.position);
 
         }
         else
         {
             //hammer.GetComponent<Rigidbody>().isKinematic = false;
-            hammer.GetComponent<Rigidbody>().useGravity = true;
+           hammer.GetComponent<Rigidbody>().useGravity = true;
         }
 
     }
@@ -85,11 +87,16 @@ public class CallHammer : MonoBehaviour
     // Update is called once per frame
     void ComeToMe(string HandType , GameObject Hand)
     {
-        
-        // Debug.Log(" Going to : " + HandType + "");
-        float step = speed * Time.deltaTime; // calculate distance to move
-        hammer.transform.position = Vector3.MoveTowards(hammer.transform.position, Hand.transform.position, step);
-                
+        if(!(Vector3.Distance(Hand.transform.position, hammer.transform.position)<0.1))
+        {
+            //Debug.Log(" Going to : " + HandType + "");
+            float step = speed * Time.deltaTime; // calculate distance to move
+            hammer.transform.position = Vector3.MoveTowards(hammer.transform.position, Hand.transform.position, step);
+
+        }
+
+       
+               
     }
 
    

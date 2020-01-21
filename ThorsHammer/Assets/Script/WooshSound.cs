@@ -25,7 +25,7 @@ public class WooshSound : MonoBehaviour
             if (!wooshaudio.isPlaying)
             {
                 wooshaudio.clip = woosh;
-                wooshaudio.time = 1.0f;
+                //wooshaudio.time = 1.0f;
                 wooshaudio.Play();
 
                
