@@ -8,9 +8,9 @@ public class BreakME : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        
+        Debug.Log(collision.gameObject.name);
      
-            Instantiate(Cube, new Vector3(Cube.transform.position.x * 2.0F, 0, 0), Quaternion.identity);
-        
+          GameObject cone= Instantiate(Cube, new Vector3(Cube.transform.position.x * 2.0F, 0, 0), Quaternion.identity);
+        Destroy(cone, 0.2f);
     }
 }
