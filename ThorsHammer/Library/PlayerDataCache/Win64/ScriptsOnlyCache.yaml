@@ -1604,4 +1604,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/New/ThorsHammer/Build21-01-2020/ThorsHammer.exe
+  playerPath: C:/New/ThorsHammer/NewBuildwithBox collider/ThorsHammer.exe
