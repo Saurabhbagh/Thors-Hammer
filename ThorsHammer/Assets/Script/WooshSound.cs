@@ -17,7 +17,7 @@ public class WooshSound : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (Input.GetKey("space"))
         {
@@ -29,6 +29,29 @@ public class WooshSound : MonoBehaviour
                 wooshaudio.Play();
 
                
+            }
+        }
+        else
+        {
+            if (wooshaudio.isPlaying)
+            {
+                wooshaudio.Stop();
+
+
+            }
+        }
+
+
+        if(SteamVR_Actions._default.GrabGrip.GetState(SteamVR_Input_Sources.Any))
+        {
+            wooshaudio.enabled = true;
+            if (!wooshaudio.isPlaying)
+            {
+                wooshaudio.clip = woosh;
+                wooshaudio.time = 1.0f;
+                wooshaudio.Play();
+
+
             }
         }
         else

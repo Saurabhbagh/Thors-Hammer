@@ -7,12 +7,12 @@ public class CallHammer : MonoBehaviour
 {
     public GameObject hammer;
     // Adjust the speed for the application.
-    public float speed = 1.0f;
+    public float speed = 10.0f;
 
     public GameObject cube;
     public GameObject LeftHand;
     public GameObject RightHand;
-    public SteamVR_Action_Vibration HapticAction;
+    //public SteamVR_Action_Vibration HapticAction;
     public float duration= 0.01f;
 
     public float frequency = 200;
@@ -28,7 +28,7 @@ public class CallHammer : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKey("t"))
+        if (SteamVR_Actions._default.GrabPinch.GetState(SteamVR_Input_Sources.Any))
         {
             audio.enabled = true;
             if (!audio.isPlaying)
@@ -49,17 +49,20 @@ public class CallHammer : MonoBehaviour
             }
         }
 
-        //Debug.Log("Left Controller Position: " + LeftHand.transform.position);
-        //Debug.Log("Right Controller Position: " + RightHand.transform.position);
-        //Debug.Log("Hammer Position: " + hammer.transform.position);
+        
         if (SteamVR_Actions._default.GrabGrip.GetState(SteamVR_Input_Sources.LeftHand))  // for any state it works !!
         {
             ComeToMe("left", LeftHand);
-            //Debug.Log("Hammer Position: "+hammer.transform.position);
-            //Debug.Log("Controller Position: " + LeftHand.transform.position);
+            hammer.GetComponent<Rigidbody>().useGravity = false;
+           
             //HapticAction.Execute(0, duration, frequency, amplitude, SteamVR_Input_Sources.LeftHand);
 
 
+        }
+        else
+        {
+            //hammer.GetComponent<Rigidbody>().isKinematic = false;
+            hammer.GetComponent<Rigidbody>().useGravity = true;
         }
 
 
@@ -67,22 +70,22 @@ public class CallHammer : MonoBehaviour
         {
             //HapticAction.Execute(0, duration, frequency, amplitude, SteamVR_Input_Sources.RightHand);
             ComeToMe("Right", RightHand);
-            //Debug.Log("Hammer Position: " + hammer.transform.position);
+            hammer.GetComponent<Rigidbody>().useGravity = false;
             //Debug.Log("Controller Position: " + RightHand.transform.position);
 
         }
+        else
+        {
+            //hammer.GetComponent<Rigidbody>().isKinematic = false;
+            hammer.GetComponent<Rigidbody>().useGravity = true;
+        }
+
     }
 
     // Update is called once per frame
     void ComeToMe(string HandType , GameObject Hand)
     {
-
-
-        // Calculating speed 
-        float distanace = Vector3.Distance(hammer.transform.position, Hand.transform.position);
-        speed = distanace / 0.2f;
-
-
+        
         // Debug.Log(" Going to : " + HandType + "");
         float step = speed * Time.deltaTime; // calculate distance to move
         hammer.transform.position = Vector3.MoveTowards(hammer.transform.position, Hand.transform.position, step);
