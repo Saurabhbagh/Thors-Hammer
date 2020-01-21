@@ -8,9 +8,9 @@ public class BreakME : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        for (int i = 0; i < 10; i++)
-        {
-            Instantiate(Cube, new Vector3(i * 2.0F, 0, 0), Quaternion.identity);
-        }
+        
+     
+            Instantiate(Cube, new Vector3(Cube.transform.position.x * 2.0F, 0, 0), Quaternion.identity);
+        
     }
 }
